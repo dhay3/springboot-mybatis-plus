@@ -1,0 +1,14 @@
+people:
+  name: henry
+  age: 30
+  date: 1992/12/12 #日期用/分隔
+  list: #[a,b,c] 行内写法
+    - a
+    - b
+    - ${people.age} #支持使用${...}取值方式, 且支持拼接
+  map: #{hi: hello,how: what} 行内写法
+    hi: hello
+    how: what
+#  dog: 支持级联,但是不会提示级联的属性
+#    name:
+#    age:
