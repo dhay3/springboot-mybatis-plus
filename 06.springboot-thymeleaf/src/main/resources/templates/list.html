@@ -1,0 +1,17 @@
+<!DOCTYPE html >
+<!--引入thymeleaf头文件-->
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<ul>
+    <li th:each="account:${accounts}">
+        <!--        两种方法都能拿到值,但是如果是通过点属性名来调用,就绝不能用lombook的fluent-->
+        <span th:text="${account.name}"></span>
+        <span th:text="${account.getAge()}"></span>
+    </li>
+</ul>
+</body>
+</html>

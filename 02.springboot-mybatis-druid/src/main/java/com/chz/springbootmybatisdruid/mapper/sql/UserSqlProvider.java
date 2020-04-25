@@ -12,6 +12,7 @@ import javax.validation.constraints.NotNull;
  */
 public class UserSqlProvider implements ProviderMethodResolver {
     //采用这种方式可以减少代码冗余
+    //name 和 age是从mapper中传过来的参数
     public static String dynGet(final String name, final Integer age) {
         //采用局部匿名内部内参数要用final
         return new SQL() {
@@ -20,7 +21,9 @@ public class UserSqlProvider implements ProviderMethodResolver {
                 FROM("tbl_teacher");
                 if (null != name) {
                     WHERE("t_name = #{name}");
-                } else if (null != age) {
+                }
+                //where会自动拼接and
+                if (null != age) {
                     WHERE("age=#{age}");
                 }
             }

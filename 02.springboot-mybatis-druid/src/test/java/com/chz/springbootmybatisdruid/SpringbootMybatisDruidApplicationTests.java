@@ -1,6 +1,5 @@
 package com.chz.springbootmybatisdruid;
 
-import com.chz.springbootmybatisdruid.entity.Teacher;
 import com.chz.springbootmybatisdruid.mapper.TeacherMapper;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -25,12 +24,12 @@ class SpringbootMybatisDruidApplicationTests {
 //        int update = teacherMapper.update(teacher);
 //        get
 //        System.out.println(teacherMapper.get(7));
-
-//        System.out.println(teacherMapper.dynGet("天天", null));
+        //通过传null,可以达到queryAll的效果
+        System.out.println(teacherMapper.dynGet("张三丰", 12323));
 
 //        System.out.println(teacherMapper.dynUpdate("王老五", null,8));
 
-        System.out.println(teacherMapper.dynInsert(new Teacher("丁一", 12, 1)));
+//        System.out.println(teacherMapper.dynInsert(new Teacher("丁一", 12, 1)));
     }
 
 }

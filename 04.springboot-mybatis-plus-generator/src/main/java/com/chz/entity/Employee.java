@@ -46,7 +46,8 @@ public class Employee extends Model<Employee> implements Serializable {
     @TableField(fill = FieldFill.INSERT)
     //将接收到的参数格式化输出
     @JsonFormat(pattern = "yyyy-mm-dd HH:mm:ss")
-    //只接受指定类型的格式的参数
+    //如果不支持可能是druid或是mybatis不支持,更换以下jar
+    //只接受指定类型的格式的参数,用Date来接收数据库穿过来的date,timestamp
     @DateTimeFormat(pattern = "yyyy-mm-dd HH:mm:ss")
     private Date date;
 
