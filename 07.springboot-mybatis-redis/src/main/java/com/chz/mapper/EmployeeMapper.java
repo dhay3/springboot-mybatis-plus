@@ -35,5 +35,4 @@ public interface EmployeeMapper {
 
     @Delete("DELETE FROM tbl_employee WHERE id = #{id}")
     boolean delete(Integer id);
-
 }

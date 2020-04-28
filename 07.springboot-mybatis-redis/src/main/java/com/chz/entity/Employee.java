@@ -26,15 +26,20 @@ public class Employee implements Serializable {
     private Integer age;
     private Integer version;
     private Integer deleted;
-    //输出到redis中同样会生效
-//    @JsonFormat(pattern = "yyyy-mm-dd hh:MM:ss")
-    @DateTimeFormat(pattern = "yyyy-mm-dd HH:MM:ss")
+    //接收前端自定格式的数据
+//    @DateTimeFormat(pattern = "yyyy-MM-dd")
     //LocalDateTime这一系列的比较特殊必须要指定序列化的方式,否则机会抛出
     // Cannot deserialize instance of `java.time.LocalDateTime` out of START_ARRAY
-    @JsonDeserialize(using = LocalDateTimeDeserializer.class)
+    //将对象序列化为json串,前端获得的,如果不指定按照spring默认的处理(@ResponseBody)
     @JsonSerialize(using = LocalDateTimeSerializer.class)
+    //将json串反序列化为对象
+    @JsonDeserialize(using = LocalDateTimeDeserializer.class)
     private LocalDateTime date;
 
+    /*
+    先到数据库查,然后将序列化的对象的json存入redis,第二次查询时从将redis中json转为对象
+    然后通过@ResponseBody传到前端
+     */
     @Override
     public String toString() {
         return "Employee{" +

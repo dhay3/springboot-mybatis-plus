@@ -35,8 +35,9 @@ class SpringbootMybatisRedisApplicationTests {
     @Test
     public void testConnect() {
 //        employeeMapper.list(null,null).forEach(System.out::println);
-        Employee employee1 = employeeMapper.get(35);
-        Employee employee2 = employeeMapper.get(35);
+//        System.out.println(employeeMapper.get(35));
+        System.out.println(employeeService.get(35));
+//        Employee employee2 = employeeMapper.get(35);
     }
 
     /**

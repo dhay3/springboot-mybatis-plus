@@ -1,16 +1,16 @@
 spring:
   thymeleaf:
-    enabled: true #\u662F\u5426\u5F00\u542Fthymeleaf, \u7F3A\u7701\u503C \u5F00\u53D1\u4E2D\u4E00\u822C\u8BBE\u7F6E\u4E3Afalse
-    encoding: UTF-8 #\u7F16\u7801 ,\u7F3A\u7701\u503C
-    cache: true #\u5F00\u542F\u6A21\u677F\u7F13\u5B58, \u7F3A\u7701\u503C
-    check-template: true #\u68C0\u67E5\u6A21\u677F\u662F\u5426\u5B58\u5728, \u7F3A\u7701\u503C
-    check-template-location: true #\u68C0\u67E5\u9ED8\u8BA4\u4F4D\u7F6E\u662F\u5426\u6B63\u786E, \u7F3A\u7701\u503C
+    enabled: true #是否开启thymeleaf, 缺省值 开发中一般设置为false
+    encoding: UTF-8 #编码 ,缺省值
+    cache: true #开启模板缓存, 缺省值
+    check-template: true #检查模板是否存在, 缺省值
+    check-template-location: true #检查默认位置是否正确, 缺省值
     servlet:
-      content-type: text/html #xml-rpc \u7F3A\u7701\u503C
-    excluded-view-names: #\u90A3\u4E9B\u89C6\u56FE\u4E0D\u7ECF\u8FC7thymeleaf\u6A21\u677F
-    mode: HTML #\u7F3A\u7701\u503C
-    prefix: classpath:/templates/ #\u89C6\u56FE\u89E3\u6790\u5668\u7684\u524D\u7F00, \u7F3A\u7701\u503C
-    suffix: .html #\u89C6\u56FE\u89E3\u6790\u5668\u540E\u7F00, \u7F3A\u7701\u503C
+      content-type: text/html #xml-rpc 缺省值
+    excluded-view-names: #那些视图不经过thymeleaf模板
+    mode: HTML #缺省值
+    prefix: classpath:/templates/ #视图解析器的前缀, 缺省值
+    suffix: .html #视图解析器后缀, 缺省值
 
 
 

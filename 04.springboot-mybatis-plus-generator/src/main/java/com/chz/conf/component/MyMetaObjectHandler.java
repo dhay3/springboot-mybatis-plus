@@ -5,7 +5,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.apache.ibatis.reflection.MetaObject;
 import org.springframework.stereotype.Component;
 
-import java.util.Date;
+import java.time.LocalDateTime;
 
 /*
 自动填充,一般用于自动填充date
@@ -22,9 +22,10 @@ public class MyMetaObjectHandler implements MetaObjectHandler {
     @Override
     public void insertFill(MetaObject metaObject) {
         log.info("start insert fill ....");
-        this.strictUpdateFill(metaObject, "date", Date.class, new Date()); // 起始版本 3.3.0(推荐使用)
-        this.fillStrategy(metaObject, "date", new Date());
+        this.strictUpdateFill(metaObject, "date", LocalDateTime.class, LocalDateTime.now()); // 起始版本 3.3.0(推荐使用)
+        this.fillStrategy(metaObject, "date", LocalDateTime.now());
     }
+
     /*
     update时自动填充指定字段
      */

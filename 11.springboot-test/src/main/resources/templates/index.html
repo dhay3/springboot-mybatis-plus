@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+</head>
+<body>
+<form th:action="@{/employee/upload}" method="post" enctype="multipart/form-data">
+    姓名: <input type="text" name="lastName">
+    <br>
+    年龄: <input type="text" name="age">
+    <br>
+    邮箱: <input type="email" name="email">
+    <br>
+    文件: <input type="file" name="file">
+    <br>
+    desc: <input type="text" name="desc">
+    <input type="submit" value="提交">
+</form>
+<hr>
+<form th:action="@{/employee/multiup}" method="post" enctype="multipart/form-data">
+    文件<input type="file" name="file">
+    <br>
+    文件<input type="file" name="file">
+    <br>
+    文件<input type="file" name="file">
+    <br>
+    <input type="submit" value="提交">
+</form>
+</body>
+</html>

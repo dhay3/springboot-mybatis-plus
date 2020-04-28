@@ -1,0 +1,19 @@
+management:
+  server:
+    port: 80 #\u6307\u5B9A\u7AEF\u53E3 ,\u7F3A\u7701\u503C\u9879\u76EE\u7AEF\u53E3 ,\u8BBF\u95EE\u53EF\u4EE5\u4E0D\u7528\u5199\u51FA80\u7AEF\u53E3,\u8FD9\u662F\u516C\u8BA4\u503C
+    servlet:
+      context-path: /monitor #\u6307\u5B9A\u8BBF\u95EE\u8DEF\u5F84, \u7F3A\u7701\u503C /actuator
+  endpoints:
+    web:
+      exposure:
+        include: "*" #web \u9ED8\u8BA4\u53EA\u80FD\u8BBF\u95EEhealth \u548Cinfo ,\u5176\u4ED6endpoints\u4E0D\u5BF9web\u5F00\u653E
+#    enabled-by-default: false \u5173\u95ED\u9ED8\u8BA4\u7684endpoints\u914D\u7F6E
+  endpoint: #\u4F7F\u7528\u81EA\u5DF1\u8BBE\u7F6E\u7684endpoints\u914D\u7F6E
+    shutdown:
+      enabled: true #\u7F3A\u7701\u503C false
+#    health:
+#      enabled: true
+#    info:
+#      enabled: true
+
+

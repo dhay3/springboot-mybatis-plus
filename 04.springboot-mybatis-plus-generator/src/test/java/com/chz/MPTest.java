@@ -4,6 +4,7 @@ import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.conditions.update.UpdateWrapper;
 import com.chz.entity.Employee;
 import com.chz.mapper.EmployeeMapper;
+import com.chz.service.IEmployeeService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -14,7 +15,8 @@ import java.util.Map;
 public class MPTest {
     @Autowired
     EmployeeMapper employeeDao;
-
+    @Autowired
+    IEmployeeService employeeService;
     /*
     查询年龄18-40间的男性
     SELECT id,last_name,email,gender,age FROM tbl_employee WHERE (age BETWEEN ? AND ? AND gender = ?)
@@ -64,5 +66,15 @@ public class MPTest {
         UpdateWrapper<Employee> updateWrapper = new UpdateWrapper<>();
         updateWrapper.lambda().eq(Employee::getEmail, "henry@163");
         employeeDao.delete(updateWrapper);
+    }
+    /*
+    dao能封装localDateTime,但是service不能
+     */
+    @Test
+    public void testService(){
+//        System.out.println(employeeService.getOne(new QueryWrapper<Employee>().eq("id", 13)));
+//        System.out.println(employeeService.getById(13));
+        System.out.println(employeeDao.selectById(13));
+//        employeeDao.selectById()
     }
 }
