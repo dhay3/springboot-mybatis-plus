@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    这是500异常
+<!-- thymeleaf能通过BasicController发出的modelAndView拿到值-->
+    <div th:text="${status}"></div>
+    <div th:text="${timestamp}"></div>
+<!--    <h1>status:[[${status}]]</h1>-->
+<!--    <h2>timestamp:[[${timestamp}]]</h2>-->
+    <div th:text="${map}"></div>
+    <div th:text="${info}"></div>
+    <div th:text="${msg}"></div>
+</body>
+</html>

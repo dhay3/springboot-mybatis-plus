@@ -10,10 +10,12 @@ management:
 #    enabled-by-default: false \u5173\u95ED\u9ED8\u8BA4\u7684endpoints\u914D\u7F6E
   endpoint: #\u4F7F\u7528\u81EA\u5DF1\u8BBE\u7F6E\u7684endpoints\u914D\u7F6E
     shutdown:
-      enabled: true
+      enabled: true #\u7F3A\u7701\u503C false
 #    health:
 #      enabled: true
 #    info:
 #      enabled: true
-
-
+info: #自定以info ,通过 /info endpoints访问,不需要其他多余配置
+  app:
+    name: 我的第一个acuator
+  version: 1.0.0

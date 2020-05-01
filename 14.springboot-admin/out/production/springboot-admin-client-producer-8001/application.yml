@@ -1,0 +1,17 @@
+server:
+  port: 8081
+spring:
+  boot:
+    admin:
+      client:
+        url: http://localhost:7001/admin-server #\u914D\u7F6E\u6CE8\u518C\u4E2D\u5FC3\u5730\u5740
+info:
+  app:
+    #除了springboot的配置文件中定义的值使用${}来获取值, 取其他配置文件的值都采用@@
+    name: "springboot-admin-client-producer-8001"  #这里使用双引号输出输出值
+    description: "Demo project for Spring Boot"
+    version: "0.0.1-SNAPSHOT"
+    springboot: "@project.parent.version@"
+
+
+

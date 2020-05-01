@@ -1,0 +1,4 @@
+server:
+  port: 7001
+  servlet:
+    context-path: /admin-server #服务端访问localhost:7001/admin-server

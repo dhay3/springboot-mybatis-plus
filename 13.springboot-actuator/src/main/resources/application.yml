@@ -15,5 +15,7 @@ management:
 #      enabled: true
 #    info:
 #      enabled: true
-
-
+info: #自定以info ,通过 /info endpoints访问,不需要其他多余配置
+  app:
+    name: 我的第一个actuator
+  version: 1.0.0
