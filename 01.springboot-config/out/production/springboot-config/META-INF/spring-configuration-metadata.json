@@ -1,0 +1,52 @@
+{
+  "groups": [
+    {
+      "name": "people",
+      "type": "com.chz.springbootconfig.pojo.PeopleProperties",
+      "sourceType": "com.chz.springbootconfig.pojo.PeopleProperties"
+    },
+    {
+      "name": "test",
+      "type": "com.chz.springbootconfig.pojo.TestProperty",
+      "sourceType": "com.chz.springbootconfig.pojo.TestProperty"
+    }
+  ],
+  "properties": [
+    {
+      "name": "people.age",
+      "type": "java.lang.Integer",
+      "sourceType": "com.chz.springbootconfig.pojo.PeopleProperties"
+    },
+    {
+      "name": "people.date",
+      "type": "java.util.Date",
+      "sourceType": "com.chz.springbootconfig.pojo.PeopleProperties"
+    },
+    {
+      "name": "people.list",
+      "type": "java.util.List<java.lang.Object>",
+      "sourceType": "com.chz.springbootconfig.pojo.PeopleProperties"
+    },
+    {
+      "name": "people.map",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>",
+      "sourceType": "com.chz.springbootconfig.pojo.PeopleProperties"
+    },
+    {
+      "name": "people.name",
+      "type": "java.lang.String",
+      "sourceType": "com.chz.springbootconfig.pojo.PeopleProperties"
+    },
+    {
+      "name": "test.age",
+      "type": "java.lang.Integer",
+      "sourceType": "com.chz.springbootconfig.pojo.TestProperty"
+    },
+    {
+      "name": "test.name",
+      "type": "java.lang.String",
+      "sourceType": "com.chz.springbootconfig.pojo.TestProperty"
+    }
+  ],
+  "hints": []
+}

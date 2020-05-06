@@ -8,6 +8,9 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+
 /**
  * <p>
  * 服务实现类
@@ -27,27 +30,34 @@ public class EmployeeServiceImpl extends ServiceImpl<EmployeeMapper, Employee> i
         */
     @Override
     @Transactional(propagation = Propagation.REQUIRED)
-    public boolean transaction(Integer form, Integer to, Integer age) {
+    public boolean transaction(Integer form, Integer to, Integer age) throws FileNotFoundException {
+
         //转账
         Employee formE = getById(form);
         System.out.println(formE);
         formE.setAge(formE.getAge() - age).setVersion(1);
         updateById(formE);
+        toTransaction(to, age);
+        return true;
+    }
 
+    public void toTransaction(Integer to, Integer age) throws FileNotFoundException {
         //收账
         Employee toE = getById(to);
         System.out.println(toE);
         toE.setAge(toE.getAge() + age).setVersion(1);
         updateById(toE);
-        return true;
+        //checked exception 被throws后不会对事务产生影响,事务正常运行
+        FileInputStream fileInputStream = new FileInputStream("/");
+//        throw new RuntimeException();
     }
 
     /**
      * spring的事务回滚机制
-     * \-- 只针对unchecked exception回滚 RuntimeException如空指针,数组越界,etc ; 不会对checked exception回滚 如ioException,Exception也是
-     * \-- 如果unchecked exception被捕捉的话, 事务不再生效作为普通方法运行
+     * \-- 不管是cheked exception或是unchecked exception只要是异常try-catch后,方法正常执行,事务不会生效,
+     *    但是如果checked exception抛出异常不会对事务有任何影响,事务正常运行,不同于@ExceptionHandler和aop中的
      * \-- 同一个类中的两个事务方法, method1调用method2还是在同一个事务中, 同时回滚
-     *      如果向要method1 回滚的同时 method2 提交成功, 那么要另外写一个类将method2放在该类中
+     * 如果向要method1 回滚的同时 method2 提交成功, 那么要另外写一个类将method2放在该类中
      */
 //    @Transactional(propagation = Propagation.REQUIRED)
     public void method1() {

@@ -13,6 +13,6 @@ public class DeleteAll extends AbstractMethod {
         String sql = "delete from" + tableInfo.getTableName();
         String method = "deleteEmployee";
         SqlSource sqlSource = languageDriver.createSqlSource(configuration, sql, modelClass);
-        return this.addDeleteMappedStatement(mapperClass,method,sqlSource);
+        return this.addDeleteMappedStatement(mapperClass, method, sqlSource);
     }
 }

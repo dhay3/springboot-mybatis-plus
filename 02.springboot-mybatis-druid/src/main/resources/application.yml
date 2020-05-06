@@ -45,3 +45,6 @@ spring:
 mybatis:
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl #\u5F00\u542Flog\u65E5\u5FD7
+#logging:
+#  level:
+#    com.chz.springbootmybatisdruid.mapper: debug

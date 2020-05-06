@@ -139,11 +139,12 @@ public class EmployeeController {
     public String skip() {
         return "view";
     }
+
     //这里不能加@ResponseBody,必须跳转到一个指定的页面
     @GetMapping("/model")
 //    @RequestMapping(value = "/model",method = RequestMethod.GET)
-    public String modelTest(Model model){
-        model.addAttribute("key","value");
+    public String modelTest(Model model) {
+        model.addAttribute("key", "value");
         return "view";
     }
 }

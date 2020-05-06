@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a8520250-1c34-4327-86b7-293b30b00b2e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../01.springboot-config/src/main/java/com/chz/springbootconfig/SpringbootConfigApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../01.springboot-config/src/main/java/com/chz/springbootconfig/SpringbootConfigApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01.springboot-config/src/main/java/com/chz/springbootconfig/pojo/PeopleProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../01.springboot-config/src/main/java/com/chz/springbootconfig/pojo/PeopleProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01.springboot-config/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../01.springboot-config/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01.springboot-config/src/test/java/com/chz/springbootconfig/SpringbootConfigApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../01.springboot-config/src/test/java/com/chz/springbootconfig/SpringbootConfigApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02.springboot-mybatis-druid/out/production/springboot-mybatis-druid/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../02.springboot-mybatis-druid/out/production/springboot-mybatis-druid/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02.springboot-mybatis-druid/out/test/springboot-mybatis-druid/com/chz/springbootmybatisdruid/SpringbootMybatisDruidApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../02.springboot-mybatis-druid/out/test/springboot-mybatis-druid/com/chz/springbootmybatisdruid/SpringbootMybatisDruidApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02.springboot-mybatis-druid/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../02.springboot-mybatis-druid/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02.springboot-mybatis-druid/src/test/java/com/chz/springbootmybatisdruid/SpringbootMybatisDruidApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../02.springboot-mybatis-druid/src/test/java/com/chz/springbootmybatisdruid/SpringbootMybatisDruidApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../05.springboot-aop-log/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../05.springboot-aop-log/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../05.springboot-aop-log/src/main/java/com/chz/log/LogAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../05.springboot-aop-log/src/main/java/com/chz/log/LogAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../05.springboot-aop-log/src/main/java/com/chz/util/HttpContextUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../05.springboot-aop-log/src/main/java/com/chz/util/HttpContextUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../05.springboot-aop-log/src/main/java/com/chz/util/IPUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../05.springboot-aop-log/src/main/java/com/chz/util/IPUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../05.springboot-aop-log/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../05.springboot-aop-log/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../05.springboot-aop-log/src/test/java/com/chz/SpringbootAopLogApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../05.springboot-aop-log/src/test/java/com/chz/SpringbootAopLogApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../07.springboot-mybatis-redis/out/production/springboot-mybatis-redis/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../07.springboot-mybatis-redis/out/production/springboot-mybatis-redis/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../07.springboot-mybatis-redis/out/production/springboot-mybatis-redis/com/chz/conf/RedisConf.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../07.springboot-mybatis-redis/out/production/springboot-mybatis-redis/com/chz/conf/RedisConf.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../07.springboot-mybatis-redis/out/production/springboot-mybatis-redis/com/chz/entity/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../07.springboot-mybatis-redis/out/production/springboot-mybatis-redis/com/chz/entity/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../07.springboot-mybatis-redis/out/production/springboot-mybatis-redis/com/chz/service/IEmployeeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../07.springboot-mybatis-redis/out/production/springboot-mybatis-redis/com/chz/service/IEmployeeService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../07.springboot-mybatis-redis/src/main/java/com/chz/conf/RedisConf.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../07.springboot-mybatis-redis/src/main/java/com/chz/conf/RedisConf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../07.springboot-mybatis-redis/src/main/java/com/chz/service/IEmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../07.springboot-mybatis-redis/src/main/java/com/chz/service/IEmployeeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../07.springboot-mybatis-redis/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../07.springboot-mybatis-redis/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../08.springboot-json/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../08.springboot-json/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../08.springboot-json/src/main/java/com/chz/springbootjson/conf/JacksonConf.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../08.springboot-json/src/main/java/com/chz/springbootjson/conf/JacksonConf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../08.springboot-json/src/main/java/com/chz/springbootjson/controller/TestJsonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../08.springboot-json/src/main/java/com/chz/springbootjson/controller/TestJsonController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../08.springboot-json/src/main/java/com/chz/springbootjson/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../08.springboot-json/src/main/java/com/chz/springbootjson/pojo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../08.springboot-json/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../08.springboot-json/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09.springboot-upload-download/src/main/java/com/chz/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../09.springboot-upload-download/src/main/java/com/chz/controller/EmployeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../10.springboot-transaction/out/production/springboot-transaction/com/chz/controller/EmployeeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../10.springboot-transaction/out/production/springboot-transaction/com/chz/controller/EmployeeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../10.springboot-transaction/out/production/springboot-transaction/com/chz/service/IEmployeeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../10.springboot-transaction/out/production/springboot-transaction/com/chz/service/IEmployeeService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../10.springboot-transaction/out/production/springboot-transaction/com/chz/service/impl/EmployeeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../10.springboot-transaction/out/production/springboot-transaction/com/chz/service/impl/EmployeeServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../10.springboot-transaction/out/test/springboot-transaction/com/chz/SpringbootTransactionApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../10.springboot-transaction/out/test/springboot-transaction/com/chz/SpringbootTransactionApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../10.springboot-transaction/src/main/java/com/chz/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../10.springboot-transaction/src/main/java/com/chz/controller/EmployeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../10.springboot-transaction/src/main/java/com/chz/service/IEmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../10.springboot-transaction/src/main/java/com/chz/service/IEmployeeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../10.springboot-transaction/src/main/java/com/chz/service/impl/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../10.springboot-transaction/src/main/java/com/chz/service/impl/EmployeeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../10.springboot-transaction/src/test/java/com/chz/SpringbootTransactionApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../10.springboot-transaction/src/test/java/com/chz/SpringbootTransactionApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11.springboot-test/out/test/springboot-test/com/chz/MockTest1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../11.springboot-test/out/test/springboot-test/com/chz/MockTest1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11.springboot-test/src/main/java/com/chz/conf/MVCConf.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../11.springboot-test/src/main/java/com/chz/conf/MVCConf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11.springboot-test/src/main/java/com/chz/conf/component/MyMetaObjectHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../11.springboot-test/src/main/java/com/chz/conf/component/MyMetaObjectHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11.springboot-test/src/main/java/com/chz/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../11.springboot-test/src/main/java/com/chz/controller/EmployeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11.springboot-test/src/main/java/com/chz/mapper/EmployeeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../11.springboot-test/src/main/java/com/chz/mapper/EmployeeMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11.springboot-test/src/main/java/com/chz/mapper/EmployeeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../11.springboot-test/src/main/java/com/chz/mapper/EmployeeMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11.springboot-test/src/main/java/com/chz/service/IEmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../11.springboot-test/src/main/java/com/chz/service/IEmployeeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11.springboot-test/src/test/java/com/chz/MockTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../11.springboot-test/src/test/java/com/chz/MockTest1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11.springboot-test/src/test/java/com/chz/MockTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../11.springboot-test/src/test/java/com/chz/MockTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11.springboot-test/src/test/java/com/chz/TestAssertJ.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../11.springboot-test/src/test/java/com/chz/TestAssertJ.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11.springboot-test/src/test/java/com/chz/TestJunit2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../11.springboot-test/src/test/java/com/chz/TestJunit2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../12.springboot-swagger2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../12.springboot-swagger2/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../12.springboot-swagger2/src/main/java/com/chz/conf/SwaggerConf.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../12.springboot-swagger2/src/main/java/com/chz/conf/SwaggerConf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../12.springboot-swagger2/src/main/java/com/chz/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../12.springboot-swagger2/src/main/java/com/chz/controller/EmployeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../12.springboot-swagger2/src/main/java/com/chz/mapper/EmployeeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../12.springboot-swagger2/src/main/java/com/chz/mapper/EmployeeMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../12.springboot-swagger2/src/main/java/com/chz/service/IEmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../12.springboot-swagger2/src/main/java/com/chz/service/IEmployeeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../12.springboot-swagger2/src/main/java/com/chz/service/impl/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../12.springboot-swagger2/src/main/java/com/chz/service/impl/EmployeeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../13.springboot-actuator/out/production/springboot-actuator/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../13.springboot-actuator/out/production/springboot-actuator/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../13.springboot-actuator/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../13.springboot-actuator/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../13.springboot-actuator/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../13.springboot-actuator/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../14.springboot-admin/springboot-admin-client-producer-8001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../14.springboot-admin/springboot-admin-client-producer-8001/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../14.springboot-admin/springboot-admin-client-producer-8001/src/main/java/com/chz/springbootadminclientproducer8001/SpringbootAdminClientProducer8001Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../14.springboot-admin/springboot-admin-client-producer-8001/src/main/java/com/chz/springbootadminclientproducer8001/SpringbootAdminClientProducer8001Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../14.springboot-admin/springboot-admin-client-producer-8001/src/test/java/com/chz/springbootadminclientproducer8001/SpringbootAdminClientProducer8001ApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../14.springboot-admin/springboot-admin-client-producer-8001/src/test/java/com/chz/springbootadminclientproducer8001/SpringbootAdminClientProducer8001ApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../14.springboot-admin/springboot-admin-server-7001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../14.springboot-admin/springboot-admin-server-7001/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../14.springboot-admin/springboot-admin-server-7001/src/main/java/com/chz/SpringbootAdminServer7001Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../14.springboot-admin/springboot-admin-server-7001/src/main/java/com/chz/SpringbootAdminServer7001Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../14.springboot-admin/springboot-admin-server-7001/src/test/java/com/chz/SpringbootAdminServer7001ApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../14.springboot-admin/springboot-admin-server-7001/src/test/java/com/chz/SpringbootAdminServer7001ApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../15.springboot-logger/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../15.springboot-logger/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../16.springboot-xss/src/main/java/com/chz/conf/JsoupConf.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../16.springboot-xss/src/main/java/com/chz/conf/JsoupConf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../16.springboot-xss/src/main/java/com/chz/controller/RichTestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../16.springboot-xss/src/main/java/com/chz/controller/RichTestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../17.springboot-utils/src/test/java/com/chz/SpringbootUtilsApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../17.springboot-utils/src/test/java/com/chz/SpringbootUtilsApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../18.springboot-exception/out/production/springboot-exception/META-INF/springboot-exception.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../18.springboot-exception/out/production/springboot-exception/com/chz/controller/TestExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../18.springboot-exception/out/production/springboot-exception/com/chz/controller/TestExceptionHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../18.springboot-exception/out/production/springboot-exception/com/chz/exception/UserNotExistException.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../18.springboot-exception/out/production/springboot-exception/com/chz/exception/UserNotExistException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../18.springboot-exception/out/production/springboot-exception/templates/error/500.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../18.springboot-exception/out/production/springboot-exception/templates/error/500.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../18.springboot-exception/src/main/java/com/chz/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../18.springboot-exception/src/main/java/com/chz/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../18.springboot-exception/src/main/java/com/chz/controller/TestExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../18.springboot-exception/src/main/java/com/chz/controller/TestExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../18.springboot-exception/src/main/java/com/chz/exception/UserNotExistException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../18.springboot-exception/src/main/java/com/chz/exception/UserNotExistException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mybatis_plus/m01/out/production/m01/conf/spring-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../mybatis_plus/m01/out/production/m01/conf/spring-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mybatis_plus/m01/src/main/java/com/chz/entity/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../mybatis_plus/m01/src/main/java/com/chz/entity/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mybatis_plus/m01/src/main/resources/conf/spring-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../mybatis_plus/m01/src/main/resources/conf/spring-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mybatis_plus/m01/src/test/java/WrapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../mybatis_plus/m01/src/test/java/WrapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mybatis_plus/m02/src/main/java/com/chz/entity/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../mybatis_plus/m02/src/main/java/com/chz/entity/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mybatis_plus/m02/src/main/resources/conf/spring-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../mybatis_plus/m02/src/main/resources/conf/spring-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mybatis_plus/m02/src/test/java/CRUDTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../mybatis_plus/m02/src/test/java/CRUDTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mybatis_plus/m03/src/main/java/com/chz/controller/TblEmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../mybatis_plus/m03/src/main/java/com/chz/controller/TblEmployeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mybatis_plus/m03/src/main/java/com/chz/entity/TblEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../mybatis_plus/m03/src/main/java/com/chz/entity/TblEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mybatis_plus/m03/src/main/java/com/chz/mapper/TblEmployeeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../mybatis_plus/m03/src/main/java/com/chz/mapper/TblEmployeeMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mybatis_plus/m03/src/main/java/com/chz/mapper/TblEmployeeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../mybatis_plus/m03/src/main/java/com/chz/mapper/TblEmployeeMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mybatis_plus/m03/src/main/java/com/chz/service/TblEmployeeAAAA.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../mybatis_plus/m03/src/main/java/com/chz/service/TblEmployeeAAAA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mybatis_plus/m03/src/main/java/com/chz/service/impl/TblEmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../mybatis_plus/m03/src/main/java/com/chz/service/impl/TblEmployeeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mybatis_plus/m03/src/test/java/Generator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../mybatis_plus/m03/src/test/java/Generator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mybatis_plus/m03/src/test/java/ServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../mybatis_plus/m03/src/test/java/ServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mybatis_plus/m04/src/main/java/com/chz/controller/TblEmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../mybatis_plus/m04/src/main/java/com/chz/controller/TblEmployeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mybatis_plus/m04/src/main/java/com/chz/mapper/TblEmployeeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../mybatis_plus/m04/src/main/java/com/chz/mapper/TblEmployeeMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mybatis_plus/m04/src/main/java/com/chz/mapper/TblEmployeeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../mybatis_plus/m04/src/main/java/com/chz/mapper/TblEmployeeMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mybatis_plus/m04/src/main/java/com/chz/service/TblEmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../mybatis_plus/m04/src/main/java/com/chz/service/TblEmployeeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mybatis_plus/m04/src/main/java/com/chz/service/impl/TblEmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../mybatis_plus/m04/src/main/java/com/chz/service/impl/TblEmployeeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mybatis_plus/m04/src/main/resources/conf/IbtisConf.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../mybatis_plus/m04/src/main/resources/conf/IbtisConf.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mybatis_plus/m05/src/main/java/com/chz/controller/TblEmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../mybatis_plus/m05/src/main/java/com/chz/controller/TblEmployeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mybatis_plus/m05/src/main/java/com/chz/injector/DeleteAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../mybatis_plus/m05/src/main/java/com/chz/injector/DeleteAll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mybatis_plus/m05/src/main/java/com/chz/injector/MyInjector.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../mybatis_plus/m05/src/main/java/com/chz/injector/MyInjector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mybatis_plus/m05/src/main/java/com/chz/mapper/TblEmployeeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../mybatis_plus/m05/src/main/java/com/chz/mapper/TblEmployeeMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mybatis_plus/m05/src/main/java/com/chz/mapper/TblEmployeeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../mybatis_plus/m05/src/main/java/com/chz/mapper/TblEmployeeMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mybatis_plus/m05/src/main/java/com/chz/service/TblEmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../mybatis_plus/m05/src/main/java/com/chz/service/TblEmployeeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mybatis_plus/m05/src/main/java/com/chz/service/impl/TblEmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../mybatis_plus/m05/src/main/java/com/chz/service/impl/TblEmployeeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mybatis_plus/m05/src/main/resources/conf/IbtisConf.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../mybatis_plus/m05/src/main/resources/conf/IbtisConf.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mybatis_plus/m05/src/test/java/MPTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../mybatis_plus/m05/src/test/java/MPTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mybatis_plus/m06/src/main/java/com/chz/handler/MyHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../mybatis_plus/m06/src/main/java/com/chz/handler/MyHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mybatis_plus/m06/src/test/java/MPTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../mybatis_plus/m06/src/test/java/MPTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mybatis_plus/out/production/m05/conf/IbtisConf.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../mybatis_plus/out/production/m05/conf/IbtisConf.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot-redis/out/production/springboot-redis/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot-redis/out/production/springboot-redis/com/chz/SpringbootRedisApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot-redis/out/production/springboot-redis/com/chz/conf/MybatisPlusConf.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot-redis/out/production/springboot-redis/com/chz/conf/component/MyMetaObjectHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot-redis/out/production/springboot-redis/com/chz/controller/EmployeeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot-redis/out/production/springboot-redis/com/chz/entity/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot-redis/out/production/springboot-redis/com/chz/mapper/EmployeeMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot-redis/out/production/springboot-redis/com/chz/service/IEmployeeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot-redis/out/production/springboot-redis/com/chz/service/impl/EmployeeServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot-redis/out/test/springboot-redis/com/chz/CacheTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot-redis/out/test/springboot-redis/com/chz/SpringbootRedisApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot-redis/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot-redis/src/main/java/com/chz/SpringbootRedisApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot-redis/src/main/java/com/chz/conf/MybatisPlusConf.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot-redis/src/main/java/com/chz/conf/component/MyMetaObjectHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot-redis/src/main/java/com/chz/controller/EmployeeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot-redis/src/main/java/com/chz/entity/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot-redis/src/main/java/com/chz/mapper/EmployeeMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot-redis/src/main/java/com/chz/mapper/EmployeeMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot-redis/src/main/java/com/chz/service/IEmployeeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot-redis/src/main/java/com/chz/service/impl/EmployeeServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot-redis/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot-redis/src/test/java/com/chz/CacheTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot-redis/src/test/java/com/chz/SpringbootRedisApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot-servlet-filter-listener-interceptor/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot-servlet-filter-listener-interceptor/src/main/java/com/chz/SpringbootServletFilterListenerInterceptorApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot-servlet-filter-listener-interceptor/src/main/java/com/chz/component/MyServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot-servlet-filter-listener-interceptor/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot-servlet-filter-listener-interceptor/src/test/java/com/chz/SpringbootServletFilterListenerInterceptorApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/springboot-authorization/src/main/java/com/chz/conf/component/CustomizeRealm.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/springboot-authorization/src/main/java/com/chz/controller/UserController.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/springboot-shiro-redies/src/main/java/com/chz/conf/component/CustomizeRealm.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/springboot-shiro-thymeleaf/src/main/resources/templates/index.html" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\maven\repository" />
+        <option name="userSettingsFile" value="D:\maven\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadAnnotationsAutomatically" value="true" />
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+        <option name="importAutomatically" value="true" />
+        <option name="useMavenOutput" value="false" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="vmOptions" value="-Dfile.encoding=GBK" />
+  </component>
+  <component name="ProjectId" id="1bROSUXj8xTMY8Mk2Az63y4vr8M" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="flattenModules" value="true" />
+    <option name="flattenPackages" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../18.springboot-exception" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2724138" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace_for_idea\springboot\24.springboot-security\springboot-shiro\springboot-authorization\src\main\resources\templates" />
+      <recent name="D:\workspace_for_idea\springboot\24.springboot-security\springboot-shiro\springboot-authorization\src\main\resources\static" />
+      <recent name="D:\workspace_for_idea\springboot\24.springboot-security\springboot-shiro\springboot-authorization\src\main\resources\static\assert\css" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.chz" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace_for_idea\springboot\24.springboot-security\springboot-shiro\springboot-shiro-session" />
+      <recent name="D:\workspace_for_idea\springboot\24.springboot-security\springboot-shiro\springboot-shiro-thymeleaf\src" />
+      <recent name="D:\workspace_for_idea\springboot\24.springboot-security\springboot-shiro\springboot-shiro-thymeleaf\src\main\resources" />
+      <recent name="D:\workspace_for_idea\springboot\24.springboot-security\springboot-shiro\springboot-shiro-thymeleaf" />
+      <recent name="D:\workspace_for_idea\springboot\24.springboot-security\springboot-shiro\springboot-shiro-redies" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.MockDatasource.test1">
+    <configuration name="MD5Utils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.chz.util.MD5Utils" />
+      <module name="03.springboot-authorization" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chz.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MockDatasource.test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="02.springboot-shiro-remember" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.chz" />
+      <option name="MAIN_CLASS_NAME" value="com.chz.MockDatasource" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MockDatasource.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="03.springboot-authorization" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.chz" />
+      <option name="MAIN_CLASS_NAME" value="com.chz.MockDatasource" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MockDatasource.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="06.springboot-shiro-session" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.chz" />
+      <option name="MAIN_CLASS_NAME" value="com.chz.MockDatasource" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MockDatasource.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="02.springboot-shiro-remember" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.chz" />
+      <option name="MAIN_CLASS_NAME" value="com.chz.MockDatasource" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MockDatasource.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="04.springboot-shiro-redies" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.chz" />
+      <option name="MAIN_CLASS_NAME" value="com.chz.MockDatasource" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootAuthorizationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="03.springboot-authorization" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.chz.SpringbootAuthorizationApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootShiroAuthenticationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="01.springboot-shiro-authentication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.chz.SpringbootShiroAuthenticationApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootShiroRediesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="04.springboot-shiro-redies" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.chz.SpringbootShiroRediesApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootShiroRememberApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="02.springboot-shiro-remember" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.chz.SpringbootShiroRememberApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootShiroSessionApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="06.springboot-shiro-session" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.chz.SpringbootShiroSessionApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootShiroThymeleafApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="05.springboot-shiro-thymeleaf" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.chz.SpringbootShiroThymeleafApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MockDatasource.test1" />
+        <item itemvalue="JUnit.MockDatasource.test (2)" />
+        <item itemvalue="JUnit.MockDatasource.test" />
+        <item itemvalue="JUnit.MockDatasource.test (1)" />
+        <item itemvalue="Application.MD5Utils" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a8520250-1c34-4327-86b7-293b30b00b2e" name="Default Changelist" comment="" />
+      <created>1588591438040</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588591438040</updated>
+      <workItem from="1588591440424" duration="6311000" />
+      <workItem from="1588598075554" duration="30000" />
+      <workItem from="1588598110790" duration="6023000" />
+      <workItem from="1588605725628" duration="1334000" />
+      <workItem from="1588678920283" duration="1823000" />
+      <workItem from="1588680771345" duration="11090000" />
+      <workItem from="1588692082204" duration="1667000" />
+      <workItem from="1588723869778" duration="18757000" />
+      <workItem from="1588747897348" duration="14115000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="71" key="#Project_Structure" timestamp="1588591482289">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1588591482289" />
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1588765276572">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1588765276572" />
+    <state x="207" y="337" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1588691932990">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="207" y="337" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1588691932990" />
+    <state x="450" y="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1588691934857">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="450" y="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1536.824@0.0.1536.824" timestamp="1588691934857" />
+    <state x="314" y="167" key="#org.jetbrains.debugger.memory.view.InstancesWindow" timestamp="1588734598441">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="314" y="167" key="#org.jetbrains.debugger.memory.view.InstancesWindow/0.0.1536.824@0.0.1536.824" timestamp="1588734598441" />
+    <state x="612" y="165" key="#xdebugger.XInspectDialog" timestamp="1588734591189">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="612" y="165" key="#xdebugger.XInspectDialog/0.0.1536.824@0.0.1536.824" timestamp="1588734591189" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1588766712532">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1588766712532" />
+    <state width="1493" height="639" key="GridCell.Tab.0.bottom" timestamp="1588767730315">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="639" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588767730315" />
+    <state width="1493" height="639" key="GridCell.Tab.0.center" timestamp="1588767730315">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="639" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588767730315" />
+    <state width="1493" height="639" key="GridCell.Tab.0.left" timestamp="1588767730314">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="639" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588767730314" />
+    <state width="1493" height="639" key="GridCell.Tab.0.right" timestamp="1588767730315">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="639" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588767730315" />
+    <state width="1493" height="639" key="GridCell.Tab.1.bottom" timestamp="1588767730312">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="639" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588767730312" />
+    <state width="1493" height="639" key="GridCell.Tab.1.center" timestamp="1588767730312">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="639" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1588767730312" />
+    <state width="1493" height="639" key="GridCell.Tab.1.left" timestamp="1588767730312">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="639" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1588767730312" />
+    <state width="1493" height="639" key="GridCell.Tab.1.right" timestamp="1588767730312">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="639" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1588767730312" />
+    <state width="1493" height="356" key="GridCell.Tab.2.bottom" timestamp="1588747858764">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="356" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588747858764" />
+    <state width="1493" height="356" key="GridCell.Tab.2.center" timestamp="1588747858764">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="356" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1588747858764" />
+    <state width="1493" height="356" key="GridCell.Tab.2.left" timestamp="1588747858764">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="356" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1588747858764" />
+    <state width="1493" height="356" key="GridCell.Tab.2.right" timestamp="1588747858764">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="356" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1588747858764" />
+    <state x="277" y="0" key="SettingsEditor" timestamp="1588756862510">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1588756862510" />
+    <state x="490" y="154" width="561" height="524" key="StructurePopup" timestamp="1588734456307">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="490" y="154" width="561" height="524" key="StructurePopup/0.0.1536.824@0.0.1536.824" timestamp="1588734456307" />
+    <state x="321" y="148" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1588731804747">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="321" y="148" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.824@0.0.1536.824" timestamp="1588731804747" />
+    <state x="447" y="145" width="642" height="534" key="find.popup" timestamp="1588734413589">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="447" y="145" width="642" height="534" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1588734413589" />
+    <state x="282" y="177" key="new project wizard" timestamp="1588752030452">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="282" y="177" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1588752030452" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1588741832719">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1588741832719" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.2.5.RELEASE/spring-webmvc-5.2.5.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java</url>
+          <line>1000</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="((Request)((RequestFacade)((ShiroHttpServletRequest)request).request).request).coyoteRequest" custom="org.apache.catalina.connector.RequestFacade,org.apache.catalina.connector.Request,org.apache.shiro.web.servlet.ShiroHttpServletRequest" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

@@ -12,15 +12,16 @@ import java.sql.DriverManager;
 
 public class Generator {
     @Test
-    public void test(){
+    public void test() {
         System.out.println(System.getProperty("user.dir"));
     }
+
     public static void main(String[] args) {
         //主入口函数的路径
         System.out.println(System.getProperty("user.dir"));
 
         //代码生成器
-        AutoGenerator  autoGenerator = new AutoGenerator();
+        AutoGenerator autoGenerator = new AutoGenerator();
         //全局配置 调用generator.config下的
         GlobalConfig gc = new GlobalConfig();
         //获取当前项目的路径
@@ -29,7 +30,7 @@ public class Generator {
         gc.setActiveRecord(true)
                 .setAuthor("chz")
                 //文件输出路径
-                .setOutputDir(path+"/m03/src/main/java")
+                .setOutputDir(path + "/m03/src/main/java")
                 //是否覆盖文件
                 .setFileOverride(true)
                 //设置主键自增策略

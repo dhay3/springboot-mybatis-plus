@@ -5,6 +5,7 @@ import com.baomidou.mybatisplus.core.injector.DefaultSqlInjector;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
+
 @Component
 public class MyInjector extends DefaultSqlInjector {
     @Override

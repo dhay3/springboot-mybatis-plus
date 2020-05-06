@@ -21,7 +21,6 @@ public class TestAssertJ {
     DataSource dataSource;
 
 
-
     @Test
     public void test() {
         Employee employee = new Employee();

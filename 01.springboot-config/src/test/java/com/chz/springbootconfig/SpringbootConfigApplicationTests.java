@@ -14,23 +14,27 @@ class SpringbootConfigApplicationTests {
     ApplicationContext context;
     @Autowired
     PeopleProperties peopleProperties;
-//    @Autowired
+    //    @Autowired
     PeopleValue peopleValue;
     @Autowired
     TestProperty testProperty;
+
     @Test
     void contextLoads() {
     }
+
     @Test
-    public void testConfigurationProperties(){
+    public void testConfigurationProperties() {
         System.out.println(peopleProperties);
     }
+
     @Test
-    public void testValue(){
+    public void testValue() {
         System.out.println(peopleValue);
     }
+
     @Test
-    public void setPropertySource(){
+    public void setPropertySource() {
         System.out.println(context.getBean(TestProperty.class));
         System.out.println(testProperty);
     }

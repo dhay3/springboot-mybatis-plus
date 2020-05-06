@@ -16,11 +16,12 @@ public class MPTest {
 
     @Test//逻辑删除
 //     UPDATE tbl_employee SET deleted=1 WHERE id=? AND deleted=0
-    public void test(){
+    public void test() {
         employeeDao.deleteById(2);
     }
+
     @Test
-    public void test2(){
+    public void test2() {
         Employee employee = new Employee();
         employee.setLastName("王老五").setDate(new Date());
         employeeDao.insert(employee);

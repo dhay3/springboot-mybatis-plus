@@ -7,7 +7,6 @@ import lombok.NoArgsConstructor;
 import lombok.experimental.Accessors;
 
 /**
- *
  * @author 82341
  * mybatis并不需要getter setter
  * 定义JavaBean中成员变量尽量使用包装类

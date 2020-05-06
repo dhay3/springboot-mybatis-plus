@@ -40,7 +40,7 @@
           class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
         <property name="dataSource" ref="dataSource"/>
     </bean>
-<!--    mapperScan-->
+    <!--    mapperScan-->
     <bean name="mappers" class="org.mybatis.spring.mapper.MapperScannerConfigurer">
         <property name="basePackage" value="com.chz.dao"/>
     </bean>

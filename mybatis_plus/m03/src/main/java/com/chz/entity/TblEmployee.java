@@ -2,13 +2,16 @@ package com.chz.entity;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.extension.activerecord.Model;
+
 import java.time.LocalDate;
+
 import com.baomidou.mybatisplus.annotation.TableId;
+
 import java.io.Serializable;
 
 /**
  * <p>
- * 
+ *
  * </p>
  *
  * @author chz
@@ -16,7 +19,7 @@ import java.io.Serializable;
  */
 public class TblEmployee extends Model<TblEmployee> {
 
-    private static final long serialVersionUID=1L;
+    private static final long serialVersionUID = 1L;
 
     @TableId(value = "id", type = IdType.AUTO)
     private Integer id;
@@ -108,14 +111,14 @@ public class TblEmployee extends Model<TblEmployee> {
     @Override
     public String toString() {
         return "TblEmployee{" +
-        "id=" + id +
-        ", lastName=" + lastName +
-        ", email=" + email +
-        ", gender=" + gender +
-        ", age=" + age +
-        ", version=" + version +
-        ", deleted=" + deleted +
-        ", date=" + date +
-        "}";
+                "id=" + id +
+                ", lastName=" + lastName +
+                ", email=" + email +
+                ", gender=" + gender +
+                ", age=" + age +
+                ", version=" + version +
+                ", deleted=" + deleted +
+                ", date=" + date +
+                "}";
     }
 }

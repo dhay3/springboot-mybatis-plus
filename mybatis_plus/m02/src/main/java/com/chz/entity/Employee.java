@@ -10,9 +10,9 @@ import lombok.experimental.Accessors;
 import java.io.Serializable;
 
 /**
- *  Mybatis-plus AR 继承Model
- *  表所对应的类就是mapper
- *  即使不使用接口还是要配置且要在spring配置文件中
+ * Mybatis-plus AR 继承Model
+ * 表所对应的类就是mapper
+ * 即使不使用接口还是要配置且要在spring配置文件中
  */
 @Data
 @AllArgsConstructor

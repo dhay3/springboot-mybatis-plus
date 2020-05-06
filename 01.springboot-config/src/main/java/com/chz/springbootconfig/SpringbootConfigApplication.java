@@ -9,6 +9,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
 //@EnableConfigurationProperties bean会被注册到ioc中
 @EnableConfigurationProperties({PeopleProperties.class, TestProperty.class})
 //主入口类同时也一个配置类
@@ -17,6 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class SpringbootConfigApplication {
     @Autowired
     PeopleProperties peopleProperties;
+
     public static void main(String[] args) {
         SpringApplication app = new SpringApplication(
                 SpringbootConfigApplication.class);
@@ -24,9 +26,10 @@ public class SpringbootConfigApplication {
         app.setBannerMode(Banner.Mode.OFF);
         app.run(args);
     }
+
     @RequestMapping("/index")
-    public String index(){
-        return "configurationProperties"+ peopleProperties.getName();
+    public String index() {
+        return "configurationProperties" + peopleProperties.getName();
     }
 
 }

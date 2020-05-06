@@ -42,6 +42,8 @@ spring:
         url-pattern: /druid/* #视图管理界面uri
         login-username: druid #账号
         login-password: 12345 #密码
+        #        allow: 127.0.0.1 白名单
+        #        deny:  192.168.1.130黑名单
   redis:
     database: 0 #redis数据库索引, 默认 0
     host: localhost #ip 默认localhost
@@ -52,9 +54,7 @@ spring:
         max-wait: -1 #-1表示无限制
         max-idle: 8
         min-idle: 0 #为0表示不会主动创建连接
-#    timeout: 0 #超过指定时间抛出异常
-#        allow: 127.0.0.1 白名单
-#        deny:  192.168.1.130黑名单
+    timeout: 0 #超过指定时间抛出异常
 mybatis: #mybatis
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl

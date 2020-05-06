@@ -1,5 +1,8 @@
 package com.chz.exception;
 
+import org.springframework.web.bind.annotation.ResponseStatus;
+
+@ResponseStatus//如果加载异常类上一定会sendError,即使异常被捕获
 public class UserNotExistException extends RuntimeException {
     private String id;
 

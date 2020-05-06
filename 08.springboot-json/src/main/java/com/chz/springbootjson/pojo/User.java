@@ -29,6 +29,7 @@ public class User implements Serializable {
 
     //指定输出的json key为username
 //    @JsonProperty("username")
+    //对应controller中的@JsonView
     @JsonView(UserNameFieldView.class)
     private String name;
     @JsonView(AllUserFieldView.class)
@@ -41,4 +42,5 @@ public class User implements Serializable {
     @JsonFormat(pattern = "yyyy-MM-dd hh", timezone = "GTM+8")
     @JsonView(AllUserFieldView.class)
     private Date date;
+    private String gender;
 }

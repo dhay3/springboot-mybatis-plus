@@ -12,7 +12,7 @@ public class MPTest {
     TblEmployeeMapper employeeDao;
 
     @Test
-    public void test(){
+    public void test() {
         //自定义sql还是通过传统mybatis 比较好
         employeeDao.deleteEmployee("tbl_employee");
 //        System.out.println(tblEmployees);

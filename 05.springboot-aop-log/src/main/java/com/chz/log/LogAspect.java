@@ -37,9 +37,9 @@ public class LogAspect {
      * joinpoint.getArgs() 获取传入方法的参数
      * joinpoint.getTarget() 获取被代理方法所在的类
      * joinpoint.getSignature().getName() 获取被代理方法名
-     * joinpoint.getSignature().getClass() 获取被代理方法所在的类的Class
      * joinpoint.getSignature().getDeclaringTypeName() 获取被代理方法所在类的全路径名
      * 通过强换可以拿到方法
+     *
      * @param joinpoint 获取信息
      * @return 可以自定义返回值
      */

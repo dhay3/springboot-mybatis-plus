@@ -12,9 +12,10 @@ import javax.servlet.http.HttpServletRequest;
 @Controller
 public class RichTestController {
     @RequestMapping("/index")
-    public String index(){
+    public String index() {
         return "index";
     }
+
     @GetMapping("/f1")
     public String f1(@RequestParam("richText") String s, Model model) {
         System.out.println(s);

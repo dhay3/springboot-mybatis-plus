@@ -48,6 +48,7 @@ class SpringbootUtilsApplicationTests {
 
     /**
      * 文件操作类
+     *
      * @throws IOException
      */
     @Test
@@ -107,13 +108,14 @@ class SpringbootUtilsApplicationTests {
     @Test
     public void testObjectUtils() {
         //能比较两个引用变量指向的对象地址是否相同,还能比较null
-        String a=null;
-        String b=null;
+        String a = null;
+        String b = null;
         System.out.println(ObjectUtils.nullSafeEquals(a, b));
     }
 
     /**
      * 反射工具类
+     *
      * @throws IllegalAccessException
      */
     @Test
@@ -131,6 +133,7 @@ class SpringbootUtilsApplicationTests {
     /**
      * 序列化与反序列化工具
      * 可以不用按照写入顺序读取
+     *
      * @throws IOException
      */
     @Test
@@ -144,6 +147,7 @@ class SpringbootUtilsApplicationTests {
         Object user1 = SerializationUtils.deserialize(bu1);
         System.out.println(user1);
     }
+
     @Test
     public void testStopWatch() throws InterruptedException {
         //指定stopWatch的名字
@@ -156,15 +160,16 @@ class SpringbootUtilsApplicationTests {
         TimeUnit.SECONDS.sleep(2);
         sw.stop();
         //漂亮显示
-        System.out.println(sw.prettyPrint()+"+++++++++");
+        System.out.println(sw.prettyPrint() + "+++++++++");
         //输出所有任务的总时长,以纳秒显示
         String s = sw.shortSummary();
         double totalTimeSeconds = sw.getTotalTimeSeconds();
         System.out.println(s);
         System.out.println(totalTimeSeconds);
     }
+
     @Test
-    public void testTypeUtils(){
+    public void testTypeUtils() {
         User zs = new User("zs", "23");
         Field[] declaredFields = User.class.getDeclaredFields();
         for (Field declaredField : declaredFields) {

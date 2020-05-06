@@ -25,6 +25,7 @@ public class MyMetaObjectHandler implements MetaObjectHandler {
         this.strictUpdateFill(metaObject, "date", Date.class, new Date()); // 起始版本 3.3.0(推荐使用)
         this.fillStrategy(metaObject, "date", new Date());
     }
+
     /*
     update时自动填充指定字段
      */

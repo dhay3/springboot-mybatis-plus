@@ -12,10 +12,11 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 public class ServiceTest {
     @Autowired
     TblEmployeeServiceImpl tblEmployeeService;
+
     @Test
-    public void test1(){
+    public void test1() {
         TblEmployee one = tblEmployeeService.
-                getOne(new QueryWrapper<TblEmployee>().eq("last_name","z3f"));
+                getOne(new QueryWrapper<TblEmployee>().eq("last_name", "z3f"));
         System.out.println(one);
     }
 }

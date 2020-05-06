@@ -17,12 +17,14 @@ class SpringbootAopLogApplicationTests {
     @Test
     void contextLoads() {
     }
+
     @Test
-    public void test(){
+    public void test() {
         StringBuilder stringBuilder = new StringBuilder();
         stringBuilder.append("你好");
         System.out.println(stringBuilder);
     }
+
     @Test
     public void generator() {
         //主入口函数的路径

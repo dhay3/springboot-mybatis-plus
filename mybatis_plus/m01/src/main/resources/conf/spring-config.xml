@@ -58,5 +58,6 @@
         <!--        设置全局表前缀-->
         <property name="tablePrefix" value="tbl_"/>
     </bean>
-    <bean id="countOptimize" class="com.baomidou.mybatisplus.extension.plugins.pagination.optimize.JsqlParserCountOptimize"/>
+    <bean id="countOptimize"
+          class="com.baomidou.mybatisplus.extension.plugins.pagination.optimize.JsqlParserCountOptimize"/>
 </beans>

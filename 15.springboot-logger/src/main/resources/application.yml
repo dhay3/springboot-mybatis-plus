@@ -4,7 +4,7 @@ logging:
     name: mylog/chz.log #设置日志文件路径与名字名
   level:
     root: debug #指定根日志记录级别, 即全局
-  # com.chz.controller: trace #指定包日志记录级别
+    # com.chz.controller: trace #指定包日志记录级别
     my: error
   group:
     my: [com.chz.controller, com.chz.entity]

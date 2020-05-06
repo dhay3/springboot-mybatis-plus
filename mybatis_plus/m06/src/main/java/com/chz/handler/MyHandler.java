@@ -14,7 +14,7 @@ public class MyHandler implements MetaObjectHandler {
     @Override
     public void insertFill(MetaObject metaObject) {
         System.out.println("插入------------");
-        this.strictInsertFill(metaObject, "date", Date.class,new Date());
+        this.strictInsertFill(metaObject, "date", Date.class, new Date());
     }
 
     /*

@@ -4,14 +4,14 @@
 
     <!-- 通用查询映射结果 -->
     <resultMap id="BaseResultMap" type="com.chz.entity.Employee">
-        <id column="id" property="id" />
-        <result column="last_name" property="lastName" />
-        <result column="email" property="email" />
-        <result column="gender" property="gender" />
-        <result column="age" property="age" />
-        <result column="version" property="version" />
-        <result column="deleted" property="deleted" />
-        <result column="date" property="date" />
+        <id column="id" property="id"/>
+        <result column="last_name" property="lastName"/>
+        <result column="email" property="email"/>
+        <result column="gender" property="gender"/>
+        <result column="age" property="age"/>
+        <result column="version" property="version"/>
+        <result column="deleted" property="deleted"/>
+        <result column="date" property="date"/>
     </resultMap>
 
     <!-- 通用查询结果列 -->

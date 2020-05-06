@@ -7,7 +7,7 @@ management:
     web:
       exposure:
         include: "*" #web \u9ED8\u8BA4\u53EA\u80FD\u8BBF\u95EEhealth \u548Cinfo ,\u5176\u4ED6endpoints\u4E0D\u5BF9web\u5F00\u653E
-#    enabled-by-default: false \u5173\u95ED\u9ED8\u8BA4\u7684endpoints\u914D\u7F6E
+  #    enabled-by-default: false \u5173\u95ED\u9ED8\u8BA4\u7684endpoints\u914D\u7F6E
   endpoint: #\u4F7F\u7528\u81EA\u5DF1\u8BBE\u7F6E\u7684endpoints\u914D\u7F6E
     shutdown:
       enabled: true #\u7F3A\u7701\u503C false
@@ -17,5 +17,5 @@ management:
 #      enabled: true
 info: #自定以info ,通过 /info endpoints访问,不需要其他多余配置
   app:
-    name: 我的第一个acuator
+    name: 我的第一个actuator
   version: 1.0.0

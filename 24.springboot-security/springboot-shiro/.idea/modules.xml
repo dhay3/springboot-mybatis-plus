@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/springboot-shiro-authentication/01.springboot-shiro-authentication.iml" filepath="$PROJECT_DIR$/springboot-shiro-authentication/01.springboot-shiro-authentication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-shiro-remember/02.springboot-shiro-remember.iml" filepath="$PROJECT_DIR$/springboot-shiro-remember/02.springboot-shiro-remember.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-authorization/03.springboot-authorization.iml" filepath="$PROJECT_DIR$/springboot-authorization/03.springboot-authorization.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-shiro-redies/04.springboot-shiro-redies.iml" filepath="$PROJECT_DIR$/springboot-shiro-redies/04.springboot-shiro-redies.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-shiro-thymeleaf/05.springboot-shiro-thymeleaf.iml" filepath="$PROJECT_DIR$/springboot-shiro-thymeleaf/05.springboot-shiro-thymeleaf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-shiro-session/06.springboot-shiro-session.iml" filepath="$PROJECT_DIR$/springboot-shiro-session/06.springboot-shiro-session.iml" />
+    </modules>
+  </component>
+</project>

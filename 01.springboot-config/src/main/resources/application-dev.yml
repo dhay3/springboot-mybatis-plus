@@ -1,7 +1,7 @@
 people:
-  name: henry
-  age: 30
-  date: 1992/12/12 #日期用/分隔
+  name: henery
+  age: 33
+  #  date: 1992/12/12 #日期用/分隔
   list: #[a,b,c] 行内写法
     - a
     - b

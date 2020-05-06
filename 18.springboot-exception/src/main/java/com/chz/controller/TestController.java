@@ -17,6 +17,7 @@ public class TestController {
             throw new UserNotExistException(id);
         }
         //能设置返回的状态码,和请求头 可以拆解为@ResponseBody和@ResponseStatus
+        //如果设置的HttpStatus是有异常的status,body将无效,泛型是body的类型
         return new ResponseEntity<String>("正常", HttpStatus.BAD_REQUEST);
     }
 
@@ -45,4 +46,5 @@ public class TestController {
     public void testStatusCode() {
         throw new RuntimeException();
     }
+
 }

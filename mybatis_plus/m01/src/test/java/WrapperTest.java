@@ -53,7 +53,7 @@ public class WrapperTest {
         //where条件
         updateWrapper.lambda()
                 .eq(Employee::getLastName, "Black")
-                .eq(Employee::getGender,1);
+                .eq(Employee::getGender, 1);
         Employee employee = new Employee();
         //想要修改的值
         employee.setEmail("black123@qq");

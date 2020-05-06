@@ -42,6 +42,9 @@ spring:
         login-password: 12345 #\u5BC6\u7801
 #        allow: 127.0.0.1 \u767D\u540D\u5355
 #        deny:  192.168.1.130\u9ED1\u540D\u5355
-mybatis:
-  configuration:
-    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl #\u5F00\u542Flog\u65E5\u5FD7
+#mybatis:
+#  configuration:
+#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl #\u5F00\u542Flog\u65E5\u5FD7
+logging:
+  level:
+    com.chz.springbootmybatisdruid.mapper: debug

@@ -22,6 +22,7 @@ public class SwaggerConf {
     public static final String SWAGGER_SCAN_BASE_PACKAGE = "com.chz.controller";
     //版本
     public static final String VERSION = "1.1";
+
     /*
     这里需要注入bean
      */
@@ -30,7 +31,7 @@ public class SwaggerConf {
         return new Docket(DocumentationType.SWAGGER_2)
                 .apiInfo(apiInfo())
                 .select()
-                //会扫描包下所有@Api注解的controller
+                //会扫描包下所有@Api注解的controller,不需要指明entity所在的类(entity配置的注解自动生效)
                 .apis(RequestHandlerSelectors.basePackage(SWAGGER_SCAN_BASE_PACKAGE))
                 //可以根据url路径设置那些请求加入文档, 忽略哪些请求
                 .paths(PathSelectors.any())

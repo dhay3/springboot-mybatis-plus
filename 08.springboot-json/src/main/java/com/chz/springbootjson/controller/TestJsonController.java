@@ -62,13 +62,15 @@ public class TestJsonController {
         System.out.println(car.get("2").asText());
         return jsonNode.asText();
     }
-    //对应属性上的JsonView相同才会打印
+
+    //对应属性上的JsonView相同才会将属性打印
 //    @JsonView(User.UserNameFieldView.class)
     @JsonView(User.AllUserFieldView.class)
     @RequestMapping("/view")
     public User JsonView() {
         User user = new User();
-        user.setName("李文良").setAge(12).setDate(new Date()).setPassword(123);
+        //因为gender没有带@Jsonview所以不会输出
+        user.setName("李文良").setAge(12).setDate(new Date()).setPassword(123).setGender("1");
         return user;
     }
 

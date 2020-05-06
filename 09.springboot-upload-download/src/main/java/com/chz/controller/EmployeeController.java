@@ -93,6 +93,8 @@ public class EmployeeController {
         if (multipartFile.isEmpty()) {
             return "上传失败, 请选择文件";
         }
+        //获取input中file的name的值
+        //String name = multipartFile.getName();
         String filename = multipartFile.getOriginalFilename();
         System.out.println("filename===>" + filename);
         System.out.println("文件大小===>" + multipartFile.getSize());

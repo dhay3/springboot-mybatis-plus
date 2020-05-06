@@ -3,7 +3,6 @@ package com.chz;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.http.MediaType;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import org.springframework.test.web.servlet.result.MockMvcResultHandlers;
@@ -43,19 +42,19 @@ public class MockTest1 {
 //                .andDo(MockMvcResultHandlers.print());
 //
 //        //也可以通过param传值
-//        mockMvc.perform(MockMvcRequestBuilders.
-////        也是使用params 传一个map
-//        post("/employee/get").param("name", "z3f"))
-//                .andExpect(MockMvcResultMatchers.status().isOk())
-//                .andDo(MockMvcResultHandlers.print());
+        mockMvc.perform(MockMvcRequestBuilders.
+//        也可以使用params 传一个map
+        post("/employee/get").param("name", "z3f"))
+                .andExpect(MockMvcResultMatchers.status().isOk())
+                .andDo(MockMvcResultHandlers.print());
 
 
         //模拟文件上传
-        mockMvc.perform(MockMvcRequestBuilders.
-                multipart("/employee/upload")
-                .file("file", "文件内容".getBytes())
-                .contentType(MediaType.MULTIPART_FORM_DATA))
-                .andExpect(MockMvcResultMatchers.status().isOk())
-                .andDo(MockMvcResultHandlers.print());
+//        mockMvc.perform(MockMvcRequestBuilders.
+//                multipart("/employee/upload")
+//                .file("file", "文件内容".getBytes())
+//                .contentType(MediaType.MULTIPART_FORM_DATA))
+//                .andExpect(MockMvcResultMatchers.status().isOk())
+//                .andDo(MockMvcResultHandlers.print());
     }
 }

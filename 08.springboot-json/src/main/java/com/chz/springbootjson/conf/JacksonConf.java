@@ -16,10 +16,10 @@ public class JacksonConf {
     起ObjectReader和ObjectWriter的作用
      */
 //    @Bean
-    public ObjectMapper getObjectMapper(){
+    public ObjectMapper getObjectMapper() {
         ObjectMapper mapper = new ObjectMapper();
         //设置json转pojo,pojo转json 日期的格式化
         mapper.setDateFormat(new SimpleDateFormat("yyyy-MM-dd"));
-        return  mapper;
+        return mapper;
     }
 }

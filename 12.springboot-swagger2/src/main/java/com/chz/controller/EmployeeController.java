@@ -20,7 +20,7 @@ import java.util.List;
  * @since 2020-04-28
  */
 @Api("employee controller")
-@ApiModel
+//@ApiModel
 @RestController
 @RequestMapping("/employee")
 public class EmployeeController {

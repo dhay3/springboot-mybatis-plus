@@ -14,6 +14,8 @@ import org.springframework.test.annotation.Commit;
 import org.springframework.test.annotation.Rollback;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.io.FileNotFoundException;
+
 @SpringBootTest
 class SpringbootTransactionApplicationTests {
     @Autowired
@@ -35,15 +37,20 @@ class SpringbootTransactionApplicationTests {
         employee.setId(2).setVersion(1).setLastName("娃娃");
         employeeService.updateById(employee);
     }
+
     //在测试单元中对数据库的操作应该加上@Transactional
     @Test//junit也对事务生效
-    @Commit//效果与@Rollbakc(value=true)效果一样
-    @Rollback(value = false)//提交事务
+//    @Commit//效果与@Rollbakc(value=true)效果一样
+//    @Rollback(value = false)//提交事务
     @Transactional//如果想要测试单元中的数据不会注入到数据库中开启@Transactional即可,会即使方法调用成功也会自动rollback
-    public void test1() throws Exception {
+    public void test1() throws FileNotFoundException {
 //        transactionService.method1();
 //        employeeServiceImpl.method1();
+//        try {
         employeeService.transaction(2, 3, 5);
+//        } catch (FileNotFoundException e) {
+//            e.printStackTrace();
+//        }
     }
 
 

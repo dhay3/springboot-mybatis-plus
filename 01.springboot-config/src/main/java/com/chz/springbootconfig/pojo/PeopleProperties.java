@@ -3,12 +3,12 @@ package com.chz.springbootconfig.pojo;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.validation.annotation.Validated;
 
+import javax.validation.constraints.Max;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 import java.util.Date;
 import java.util.List;
 import java.util.Map;
-
 
 
 /*
@@ -17,12 +17,13 @@ import java.util.Map;
 推荐采用官方的注入方法@EnableConfigurationProperties
 */
 @ConfigurationProperties(prefix = "people")
-//JSR 303 校验
+//JSR 303 校验, 用于检验入参
 @Validated
 public class PeopleProperties {
     @NotBlank
     private String name;
     @NotNull
+    @Max(20)
     private Integer age;
     private Date date;
     private List<Object> list;

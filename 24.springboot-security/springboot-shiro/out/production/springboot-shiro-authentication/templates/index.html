@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+      xmlns:shiro="http://www.pollix.at/thymeleaf/shiro">
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+</head>
+<body>
+<h1>首页</h1>
+<h1 shiro:user="">欢迎回来[
+    <shiro:principal/>
+    ]
+</h1>
+<!--templates下的只能通过controller访问-->
+<a shiro:guest="" th:href="@{/login}">登入</a>
+</body>
+</html>

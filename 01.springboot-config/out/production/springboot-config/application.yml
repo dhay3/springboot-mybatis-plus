@@ -1,0 +1,14 @@
+#\u4E3B\u914D\u7F6E\u6587\u4EF6, \u516C\u5171\u914D\u7F6E
+#\u6307\u5B9Aprofiles
+spring:
+  profiles:
+    active: dev
+    #spring.profiles.active\u6307\u5B9A\u73AF\u5883
+    #\u4E5F\u53EF\u4EE5\u5728edit configurations\u4E2D\u7684program arguments\u4E2D\u8F93\u5165--spring.profiles.active=dev\u6765\u6307\u5B9A
+    #\u6216\u5728edit configurations\u4E2D\u7684VM option\u4E2D\u8F93\u5165-Dspring.profiles.active=dev\u6765\u6307\u5B9A
+---
+spring:
+  profiles: test1
+---
+spring:
+  profiles: test2

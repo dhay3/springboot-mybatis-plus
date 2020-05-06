@@ -8,6 +8,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.io.FileNotFoundException;
+
 /**
  * <p>
  * 前端控制器
@@ -24,7 +26,7 @@ public class EmployeeController {
     private IEmployeeService employeeService;
 
     @GetMapping("/tran")
-    public String transaction(Integer fromId, Integer toId  , Integer age) {
+    public String transaction(Integer fromId, Integer toId  , Integer age) throws FileNotFoundException {
         if (!employeeService.transaction(fromId, toId, age)) {
             return "失败";
         }

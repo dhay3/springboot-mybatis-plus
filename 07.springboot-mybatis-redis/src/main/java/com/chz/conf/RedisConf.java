@@ -22,11 +22,13 @@ import java.time.Duration;
 import java.util.HashMap;
 import java.util.Map;
 
-//redis配置类
+/**
+ * redis配置类
+ */
 @Configuration
 public class RedisConf extends CachingConfigurerSupport {
-    /*
-    配置自定义RedisTemplate
+    /**
+     * 配置自定义RedisTemplate, RedisConnectionFactory会根据使用的是jedis还是lettuce自动注入ioc
      */
     @Bean
     public RedisTemplate<String, Object> redisTemplate(RedisConnectionFactory factory) {
@@ -40,10 +42,10 @@ public class RedisConf extends CachingConfigurerSupport {
         return template;
     }
 
-    /*
-    org.springframework.cache.interceptor包下的
-    自定义key的生成策略,对应@Cacheable中的keyGenerator
-    实例对象+方法名+参数名
+    /**
+     * org.springframework.cache.interceptor包下的
+     * 自定义key的生成策略,对应@Cacheable中的keyGenerator
+     * 实例对象+方法名+参数名
      */
     @Bean
     public KeyGenerator keyGenerator() {
@@ -64,8 +66,9 @@ public class RedisConf extends CachingConfigurerSupport {
         };
     }
 
-    /*
-    自定义缓存管理
+    /**
+     * 自定义缓存管理
+     * 方法一
      */
     @Bean
     public CacheManager cacheManager(RedisConnectionFactory factory) {
@@ -73,14 +76,25 @@ public class RedisConf extends CachingConfigurerSupport {
                 //默认缓存策略
                         cacheDefaults(redisCacheConfiguration(600L)).
                 //配置不同缓存域,不同过期时间
-                        withInitialCacheConfigurations(RedisCacheConfigurationMap()).
+                        withInitialCacheConfigurations(redisCacheConfigurationMap()).
                 //更新删除上锁
                         transactionAware().
                         build();
     }
+//方法二
+//    @Bean
+//    public CacheManager cacheManager(RedisConnectionFactory factory) {
+//        return new RedisCacheManager(
+//                //不设置读写锁
+//                RedisCacheWriter.nonLockingRedisCacheWriter(factory),
+//                //默认缓存策略
+//                redisCacheConfiguration(600L),
+//                //配置不同缓存域,不同过期时间
+//                redisCacheConfigurationMap());
+//    }
 
-    /*
-    配置redis的cache策略
+    /**
+     * 配置redis的cache策略
      */
     private RedisCacheConfiguration redisCacheConfiguration(Long sec) {
         return RedisCacheConfiguration.defaultCacheConfig().
@@ -90,31 +104,31 @@ public class RedisConf extends CachingConfigurerSupport {
                 //设置value的序列化，采用Jackson2JsonRedis
                         serializeValuesWith
                         (RedisSerializationContext.SerializationPair.fromSerializer(valueSerializer())).
-                //设置cache的过期策略
+                //设置cache的过期策略(时间)
                         entryTtl(Duration.ofSeconds(sec)).
                 //不缓存null的值
                         disableCachingNullValues();
     }
 
-    /*
-    不同缓存域,不同过期时间,map的key可以被@Cacheable中的value使用
+    /**
+     * 不同缓存域,不同过期时间,map的key可以被@Cacheable中的value使用
      */
-    private Map<String, RedisCacheConfiguration> RedisCacheConfigurationMap() {
+    private Map<String, RedisCacheConfiguration> redisCacheConfigurationMap() {
         Map<String, RedisCacheConfiguration> redisCacheConfigurationMap = new HashMap<>();
         redisCacheConfigurationMap.put("userInfo", redisCacheConfiguration(3000L));
         redisCacheConfigurationMap.put("otherInfo", redisCacheConfiguration(1000L));
         return redisCacheConfigurationMap;
     }
 
-    /*
-    key采用序列化策略
+    /**
+     * key采用序列化策略
      */
     private RedisSerializer<String> keySerializer() {
         return new StringRedisSerializer();
     }
 
-    /*
-    value采用序列化策略
+    /**
+     * value采用序列化策略
      */
     private RedisSerializer<Object> valueSerializer() {
         Jackson2JsonRedisSerializer<Object> serializer = new Jackson2JsonRedisSerializer<>(Object.class);

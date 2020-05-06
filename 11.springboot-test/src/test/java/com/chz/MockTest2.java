@@ -137,7 +137,7 @@ public class MockTest2 {
                 .get("/employee/model"))
                 .andExpect(MockMvcResultMatchers.model().size(1))
                 .andExpect(MockMvcResultMatchers.model().attributeExists("key"))
-                .andExpect(MockMvcResultMatchers.model().attribute("key","value"));
+                .andExpect(MockMvcResultMatchers.model().attribute("key", "value"));
     }
 
 }

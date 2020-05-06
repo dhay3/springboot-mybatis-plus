@@ -8,14 +8,14 @@ import java.util.List;
 
 /**
  * <p>
- *  Mapper 接口
+ * Mapper 接口
  * </p>
  *
  * @author chz
  * @since 2020-04-11
  */
 
-public interface TblEmployeeMapper extends BaseMapper<TblEmployee>  {
+public interface TblEmployeeMapper extends BaseMapper<TblEmployee> {
     //如果不使用自定义全局配置,就必须在mapper.xml中写出
     //使用ISqlInject
 //    @Select("select * from tbl_employee")
