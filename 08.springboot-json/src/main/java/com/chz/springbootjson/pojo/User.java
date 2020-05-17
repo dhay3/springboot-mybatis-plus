@@ -38,6 +38,7 @@ public class User implements Serializable {
 //    @JsonIgnore
     @JsonView(AllUserFieldView.class)
     private Integer password;
+    //将对象转为json串
     //如果使用原生的json返回日期,格式有问题,需要自定格式ObjectMapper或使用注解
     @JsonFormat(pattern = "yyyy-MM-dd hh", timezone = "GTM+8")
     @JsonView(AllUserFieldView.class)

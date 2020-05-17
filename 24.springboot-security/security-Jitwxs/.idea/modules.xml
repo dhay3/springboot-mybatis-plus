@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/spring-security01/01.spring-security01.iml" filepath="$PROJECT_DIR$/spring-security01/01.spring-security01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-securiry-rememberme/02.spring-securiry-rememberme.iml" filepath="$PROJECT_DIR$/spring-securiry-rememberme/02.spring-securiry-rememberme.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-security-logout/03.spring-security-logout.iml" filepath="$PROJECT_DIR$/spring-security-logout/03.spring-security-logout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-security-error-handler/04.spring-security-error-handler.iml" filepath="$PROJECT_DIR$/spring-security-error-handler/04.spring-security-error-handler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-security-imagecode/05.spring-security-imagecode.iml" filepath="$PROJECT_DIR$/spring-security-imagecode/05.spring-security-imagecode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-securiy-athorization/06.spring-securiy-athorization.iml" filepath="$PROJECT_DIR$/spring-securiy-athorization/06.spring-securiy-athorization.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-security-session/07.spring-security-session.iml" filepath="$PROJECT_DIR$/spring-security-session/07.spring-security-session.iml" />
+    </modules>
+  </component>
+</project>

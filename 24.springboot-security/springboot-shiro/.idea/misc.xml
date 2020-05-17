@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/springboot-shiro-redies/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-shiro-thymeleaf/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-shiro-session/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-shiro-mutil-realm/pom.xml" />
       </list>
     </option>
   </component>

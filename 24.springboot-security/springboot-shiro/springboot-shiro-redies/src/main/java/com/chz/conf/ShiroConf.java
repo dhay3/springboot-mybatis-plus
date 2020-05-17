@@ -1,7 +1,7 @@
 package com.chz.conf;
 
 import at.pollux.thymeleaf.shiro.dialect.ShiroDialect;
-import com.chz.conf.component.CustomizeRealm;
+import com.chz.conf.component.CustomizeRealm1;
 import org.apache.shiro.authc.credential.HashedCredentialsMatcher;
 import org.apache.shiro.codec.Base64;
 import org.apache.shiro.mgt.DefaultSecurityManager;
@@ -99,7 +99,7 @@ public class ShiroConf {
      */
     @Bean
     public Realm userRealm() {
-        CustomizeRealm realm = new CustomizeRealm();
+        CustomizeRealm1 realm = new CustomizeRealm1();
         //告诉Shiro使用MD5加密
         realm.setCredentialsMatcher(MD5());
         return realm;

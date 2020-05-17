@@ -21,20 +21,23 @@ public class TestJsonController {
     ObjectMapper objectMapper;
 
     @GetMapping("/testCusObjectMapper")
-    public User get() {
+    public User get() throws JsonProcessingException {
+//    public String get() throws JsonProcessingException {
         User user = new User();
 //        user.setName("李文良").setAge(12).setDate(new Date()).setPassword(123);
         user.setName("李文良").setAge(12).setDate(new Date()).setPassword(123);
         System.out.println(user);
+        String s = objectMapper.writeValueAsString(user);
+//        return s;
         return user;
     }
 
     @GetMapping("/serialization")
     public String serialization() throws JsonProcessingException {
-//        String json = "{\"name\":\"张三\",\"age\":\"23\"}";
+        String json = "{\"name\":\"张三\",\"age\":\"23\"}";
 //        读取json串转pojo
-//        User user = objectMapper.readValue(json, User.class);
-        User user = new User();
+        User user = objectMapper.readValue(json, User.class);
+//        User user = new User();
 //        user.setName("仲达").setAge(12).setDate(new Date());
         //将对象转为json串
         return objectMapper.writeValueAsString(user);
@@ -73,5 +76,8 @@ public class TestJsonController {
         user.setName("李文良").setAge(12).setDate(new Date()).setPassword(123).setGender("1");
         return user;
     }
-
+    @GetMapping("/str")
+    public String getStr(){
+        return "hello world";
+    }
 }

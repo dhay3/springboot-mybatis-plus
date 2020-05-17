@@ -1,16 +1,16 @@
 management:
   server:
-    port: 80 #\u6307\u5B9A\u7AEF\u53E3 ,\u7F3A\u7701\u503C\u9879\u76EE\u7AEF\u53E3 ,\u8BBF\u95EE\u53EF\u4EE5\u4E0D\u7528\u5199\u51FA80\u7AEF\u53E3,\u8FD9\u662F\u516C\u8BA4\u503C
+    port: 80 #指定端口 ,缺省值项目端口 ,访问可以不用写出80端口,这是公认值
     servlet:
-      context-path: /monitor #\u6307\u5B9A\u8BBF\u95EE\u8DEF\u5F84, \u7F3A\u7701\u503C /actuator
+      context-path: /monitor #指定访问路径, 缺省值 /actuator
   endpoints:
     web:
       exposure:
-        include: "*" #web \u9ED8\u8BA4\u53EA\u80FD\u8BBF\u95EEhealth \u548Cinfo ,\u5176\u4ED6endpoints\u4E0D\u5BF9web\u5F00\u653E
-  #    enabled-by-default: false \u5173\u95ED\u9ED8\u8BA4\u7684endpoints\u914D\u7F6E
-  endpoint: #\u4F7F\u7528\u81EA\u5DF1\u8BBE\u7F6E\u7684endpoints\u914D\u7F6E
+        include: "*" #web 默认只能访问health 和info ,其他endpoints不对web开放
+  #    enabled-by-default: false 关闭默认的endpoints配置
+  endpoint: #使用自己设置的endpoints配置
     shutdown:
-      enabled: true #\u7F3A\u7701\u503C false
+      enabled: true #缺省值 false
 #    health:
 #      enabled: true
 #    info:

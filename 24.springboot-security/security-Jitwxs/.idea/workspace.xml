@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="646f6e4a-0db8-4168-9ebe-8a69ce95ee5f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../01.springboot-config/out/production/springboot-config/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../01.springboot-config/out/production/springboot-config/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01.springboot-config/out/production/springboot-config/com/chz/springbootconfig/SpringbootConfigApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../01.springboot-config/out/production/springboot-config/com/chz/springbootconfig/SpringbootConfigApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01.springboot-config/out/production/springboot-config/com/chz/springbootconfig/pojo/PeopleProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../01.springboot-config/out/production/springboot-config/com/chz/springbootconfig/pojo/PeopleProperties.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01.springboot-config/out/test/springboot-config/com/chz/springbootconfig/SpringbootConfigApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../01.springboot-config/out/test/springboot-config/com/chz/springbootconfig/SpringbootConfigApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../05.springboot-aop/out/production/springboot-aop/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../05.springboot-aop/out/production/springboot-aop/com/chz/SpringbootAopApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../05.springboot-aop/out/production/springboot-aop/com/chz/aspect/MyAspect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../05.springboot-aop/out/production/springboot-aop/com/chz/pointcut/MyPointcut.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../05.springboot-aop/out/test/springboot-aop/com/chz/SpringbootAopApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../05.springboot-aop/src/main/java/com/chz/aspect/MyAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../05.springboot-aop/src/main/java/com/chz/aspect/MyAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../08.springboot-json/out/production/springboot-json/com/chz/springbootjson/controller/TestJsonController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../08.springboot-json/out/production/springboot-json/com/chz/springbootjson/pojo/User$AllUserFieldView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../08.springboot-json/out/production/springboot-json/com/chz/springbootjson/pojo/User$UserNameFieldView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../08.springboot-json/out/production/springboot-json/com/chz/springbootjson/pojo/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../08.springboot-json/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../08.springboot-json/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../08.springboot-json/src/main/java/com/chz/springbootjson/controller/TestJsonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../08.springboot-json/src/main/java/com/chz/springbootjson/controller/TestJsonController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../08.springboot-json/src/main/java/com/chz/springbootjson/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../08.springboot-json/src/main/java/com/chz/springbootjson/pojo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../13.springboot-actuator/out/production/springboot-actuator/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../13.springboot-actuator/out/production/springboot-actuator/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../13.springboot-actuator/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../13.springboot-actuator/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../17.springboot-utils/out/production/springboot-utils/META-INF/springboot-utils.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../17.springboot-utils/out/production/springboot-utils/com/chz/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../17.springboot-utils/out/production/springboot-utils/com/chz/entity/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../17.springboot-utils/out/test/springboot-utils/com/chz/SpringbootUtilsApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../17.springboot-utils/out/test/springboot-utils/com/chz/SpringbootUtilsApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../17.springboot-utils/src/main/java/com/chz/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../17.springboot-utils/src/main/java/com/chz/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../17.springboot-utils/src/test/java/com/chz/SpringbootUtilsApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../17.springboot-utils/src/test/java/com/chz/SpringbootUtilsApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-shiro/out/production/04.springboot-shiro-redies/com/chz/conf/ShiroConf.class" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-shiro/out/production/04.springboot-shiro-redies/com/chz/conf/ShiroConf.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-shiro/out/production/06.springboot-shiro-session/META-INF/06.springboot-shiro-session.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-shiro/springboot-shiro-redies/src/main/java/com/chz/conf/ShiroConf.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-shiro/springboot-shiro-redies/src/main/java/com/chz/conf/ShiroConf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot-redis/out/production/springboot-redis/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot-redis/out/production/springboot-redis/com/chz/SpringbootRedisApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot-redis/out/production/springboot-redis/com/chz/conf/MybatisPlusConf.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot-redis/out/production/springboot-redis/com/chz/conf/component/MyMetaObjectHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot-redis/out/production/springboot-redis/com/chz/controller/EmployeeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot-redis/out/production/springboot-redis/com/chz/entity/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot-redis/out/production/springboot-redis/com/chz/mapper/EmployeeMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot-redis/out/production/springboot-redis/com/chz/service/IEmployeeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot-redis/out/production/springboot-redis/com/chz/service/impl/EmployeeServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot-redis/out/test/springboot-redis/com/chz/CacheTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot-redis/out/test/springboot-redis/com/chz/SpringbootRedisApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot-redis/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot-redis/src/main/java/com/chz/SpringbootRedisApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot-redis/src/main/java/com/chz/conf/MybatisPlusConf.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot-redis/src/main/java/com/chz/conf/component/MyMetaObjectHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot-redis/src/main/java/com/chz/controller/EmployeeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot-redis/src/main/java/com/chz/entity/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot-redis/src/main/java/com/chz/mapper/EmployeeMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot-redis/src/main/java/com/chz/mapper/EmployeeMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot-redis/src/main/java/com/chz/service/IEmployeeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot-redis/src/main/java/com/chz/service/impl/EmployeeServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot-redis/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot-redis/src/test/java/com/chz/CacheTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot-redis/src/test/java/com/chz/SpringbootRedisApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot-servlet-filter-listener-interceptor/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot-servlet-filter-listener-interceptor/src/main/java/com/chz/SpringbootServletFilterListenerInterceptorApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot-servlet-filter-listener-interceptor/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot-servlet-filter-listener-interceptor/src/test/java/com/chz/SpringbootServletFilterListenerInterceptorApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/spring-securiy-athorization/src/main/java/com/chz/springsecuriyathorization/config/component/CustomizePermissionEvaluator.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/spring-security-session/src/main/java/com/chz/springsecuritysession/service/impl/UserDetailsServiceImpl.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/spring-securiry-rememberme/src/main/java/com/chz/springsecurirylogout/service/impl/UserDetailsServiceImpl.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/spring-security-logout/src/main/java/com/chz/springsecurirylogout/config/SecurityConfig.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/spring-security-session/src/main/java/com/chz/springsecuritysession/config/SecurityConfig.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/spring-security-imagecode/src/main/java/com/chz/springsecurityimagecode/config/SecurityConfig.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/spring-securiy-athorization/src/main/java/com/chz/springsecuriyathorization/service/impl/UserDetailsServiceImpl.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/spring-securiry-rememberme/src/main/java/com/chz/springsecurirylogout/config/SecurityConfig.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/spring-security-error-handler/src/main/java/com/chz/springsecurirylogout/service/impl/UserDetailsServiceImpl.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/spring-security-session/src/main/java/com/chz/springsecuritysession/controller/LoginController.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/spring-security-imagecode/src/main/java/com/chz/springsecurityimagecode/service/impl/UserDetailsServiceImpl.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/spring-security01/src/main/java/com/chz/springsecurity01/service/impl/UserDetailsServiceImpl.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/spring-securiy-athorization/src/main/java/com/chz/springsecuriyathorization/config/SecurityConfig.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/spring-security-imagecode/src/main/java/com/chz/springsecurityimagecode/controller/ValidateController.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/spring-security01/src/test/java/com/chz/springsecurity01/MockTest.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/spring-security-error-handler/src/main/java/com/chz/springsecurirylogout/config/SecurityConfig.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/spring-security-logout/src/main/java/com/chz/springsecurirylogout/service/impl/UserDetailsServiceImpl.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\maven\repository" />
+        <option name="userSettingsFile" value="D:\maven\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadAnnotationsAutomatically" value="true" />
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+        <option name="importAutomatically" value="true" />
+        <option name="useMavenOutput" value="false" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="vmOptions" value="-Dfile.encoding=GBK" />
+  </component>
+  <component name="ProjectId" id="1bt6RrM3j8xXCAsMXGXEl5RU0zn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="flattenModules" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/spring-security01/src/main/java/com/chz" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../07.springboot-mybatis-redis" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.chz.springsecuriryrememberme" />
+      <recent name="com.chz.springsecuritylogout" />
+      <recent name="com.chz" />
+      <recent name="com.chz.springsecurity01" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace_for_idea\springboot\24.springboot-security\security-Jitwxs\spring-security-session\src\main\resources" />
+      <recent name="D:\workspace_for_idea\springboot\24.springboot-security\security-Jitwxs\spring-security-session\src\main\java\com\chz\springsecuritysession" />
+      <recent name="D:\workspace_for_idea\springboot\24.springboot-security\security-Jitwxs\spring-securiy-athorization\src\main\resources" />
+      <recent name="D:\workspace_for_idea\springboot\24.springboot-security\security-Jitwxs\spring-securiy-athorization\src\main\java\com\chz\springsecuriyathorization" />
+      <recent name="D:\workspace_for_idea\springboot\24.springboot-security\security-Jitwxs\spring-security-imagecode\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.chz.springsecuriyathorization.controller" />
+      <recent name="com.chz.handler" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace_for_idea\springboot\24.springboot-security\security-Jitwxs\spring-security-session\src\main\resources\static" />
+      <recent name="D:\workspace_for_idea\springboot\24.springboot-security\security-Jitwxs\spring-securiy-athorization\src\main\resources\static" />
+      <recent name="D:\workspace_for_idea\springboot\24.springboot-security\security-Jitwxs\spring-security-imagecode\src\main\resources\static" />
+      <recent name="D:\workspace_for_idea\springboot\24.springboot-security\security-Jitwxs\spring-securiry-rememberme\src\main\resources\static" />
+      <recent name="D:\workspace_for_idea\springboot\24.springboot-security\security-Jitwxs\spring-security01\src\main\resources\templates" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SpringSecuriyAthorizationApplication">
+    <configuration name="MockTest.testDB" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="01.spring-security01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chz.springsecurity01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.chz.springsecurity01" />
+      <option name="MAIN_CLASS_NAME" value="com.chz.springsecurity01.MockTest" />
+      <option name="METHOD_NAME" value="testDB" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringSecurity01ApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="01.spring-security01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chz.springsecurity01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.chz.springsecurity01" />
+      <option name="MAIN_CLASS_NAME" value="com.chz.springsecurity01.SpringSecurity01ApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringSecurity01ApplicationTests.generator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="01.spring-security01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chz.springsecurity01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.chz.springsecurity01" />
+      <option name="MAIN_CLASS_NAME" value="com.chz.springsecurity01.SpringSecurity01ApplicationTests" />
+      <option name="METHOD_NAME" value="generator" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringSecuriryRemembermeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="02.spring-securiry-rememberme" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.chz.springsecurirylogout.SpringSecuriryRemembermeApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringSecurity01Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="01.spring-security01" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.chz.springsecurity01.SpringSecurity01Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringSecurityErrorHandlerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="04.spring-security-error-handler" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.chz.SpringSecurityErrorHandlerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringSecurityImagecodeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="05.spring-security-imagecode" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.chz.springsecurityimagecode.SpringSecurityImagecodeApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringSecurityLogoutApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="03.spring-security-logout" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.chz.springsecurirylogout.SpringSecurityLogoutApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringSecuritySessionApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
+      <module name="07.spring-security-session" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.chz.springsecuritysession.SpringSecuritySessionApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringSecuriyAthorizationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="06.spring-securiy-athorization" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.chz.springsecuriyathorization.SpringSecuriyAthorizationApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.MockTest.testDB" />
+      <item itemvalue="JUnit.SpringSecurity01ApplicationTests.contextLoads" />
+      <item itemvalue="JUnit.SpringSecurity01ApplicationTests.generator" />
+      <item itemvalue="Spring Boot.SpringSecuriryRemembermeApplication" />
+      <item itemvalue="Spring Boot.SpringSecurity01Application" />
+      <item itemvalue="Spring Boot.SpringSecurityErrorHandlerApplication" />
+      <item itemvalue="Spring Boot.SpringSecurityImagecodeApplication" />
+      <item itemvalue="Spring Boot.SpringSecurityLogoutApplication" />
+      <item itemvalue="Spring Boot.SpringSecuritySessionApplication" />
+      <item itemvalue="Spring Boot.SpringSecuriyAthorizationApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MockTest.testDB" />
+        <item itemvalue="JUnit.SpringSecurity01ApplicationTests.generator" />
+        <item itemvalue="JUnit.SpringSecurity01ApplicationTests.contextLoads" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="646f6e4a-0db8-4168-9ebe-8a69ce95ee5f" name="Default Changelist" comment="" />
+      <created>1589439037246</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589439037246</updated>
+      <workItem from="1589439040970" duration="3409000" />
+      <workItem from="1589449944799" duration="2409000" />
+      <workItem from="1589452389327" duration="4190000" />
+      <workItem from="1589456610835" duration="4689000" />
+      <workItem from="1589462250831" duration="707000" />
+      <workItem from="1589462985398" duration="12990000" />
+      <workItem from="1589500741007" duration="30700000" />
+      <workItem from="1589546092341" duration="11668000" />
+      <workItem from="1589612011727" duration="7068000" />
+      <workItem from="1589635420254" duration="4882000" />
+      <workItem from="1589707128957" duration="240000" />
+      <workItem from="1589707533903" duration="495000" />
+      <workItem from="1589709608835" duration="1011000" />
+      <workItem from="1589710644504" duration="3978000" />
+      <workItem from="1589714655909" duration="5049000" />
+      <workItem from="1589723047962" duration="995000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="71" key="#Project_Structure" timestamp="1589439078472">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1589439078472" />
+    <state x="223" y="67" width="1164" height="689" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589713387904">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="67" width="1164" height="689" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1589713387904" />
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1589712308234">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1589712308234" />
+    <state x="429" y="337" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1589533441050">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="429" y="337" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1589533441050" />
+    <state x="466" y="271" width="604" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1589712167699">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="466" y="271" width="604" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1589712167699" />
+    <state x="548" y="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1589533453142">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="548" y="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1536.824@0.0.1536.824" timestamp="1589533453142" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1589714993597">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1589714993597" />
+    <state width="1493" height="230" key="GridCell.Tab.0.bottom" timestamp="1589719709807">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="230" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589719709807" />
+    <state width="1493" height="230" key="GridCell.Tab.0.center" timestamp="1589719709807">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="230" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1589719709807" />
+    <state width="1493" height="230" key="GridCell.Tab.0.left" timestamp="1589719709807">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="230" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1589719709807" />
+    <state width="1493" height="230" key="GridCell.Tab.0.right" timestamp="1589719709807">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="230" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1589719709807" />
+    <state width="1493" height="230" key="GridCell.Tab.1.bottom" timestamp="1589719709807">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="230" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589719709807" />
+    <state width="1493" height="230" key="GridCell.Tab.1.center" timestamp="1589719709807">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="230" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1589719709807" />
+    <state width="1493" height="230" key="GridCell.Tab.1.left" timestamp="1589719709807">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="230" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1589719709807" />
+    <state width="1493" height="230" key="GridCell.Tab.1.right" timestamp="1589719709807">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="230" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1589719709807" />
+    <state width="1493" height="230" key="GridCell.Tab.2.bottom" timestamp="1589719709807">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="230" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589719709807" />
+    <state width="1493" height="230" key="GridCell.Tab.2.center" timestamp="1589719709807">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="230" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1589719709807" />
+    <state width="1493" height="230" key="GridCell.Tab.2.left" timestamp="1589719709807">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="230" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1589719709807" />
+    <state width="1493" height="230" key="GridCell.Tab.2.right" timestamp="1589719709807">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="230" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1589719709807" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1589715389999">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1589715389999" />
+    <state x="490" y="154" width="540" height="524" key="StructurePopup" timestamp="1589464955643">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="490" y="154" width="540" height="524" key="StructurePopup/0.0.1536.824@0.0.1536.824" timestamp="1589464955643" />
+    <state width="568" height="540" key="SwitcherDM" timestamp="1589637856645">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="568" height="540" key="SwitcherDM/0.0.1536.824@0.0.1536.824" timestamp="1589637856645" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1589724856612">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1589724856612" />
+    <state x="565" y="190" key="chooseDestDirectoryDialog" timestamp="1589451602659">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="565" y="190" key="chooseDestDirectoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1589451602659" />
+    <state x="562" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589724818445">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="562" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1589724818445" />
+    <state x="505" y="130" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1589452916781">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="505" y="130" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1589452916781" />
+    <state x="200" y="148" width="1136" height="567" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1589718464511">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="200" y="148" width="1136" height="567" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.824@0.0.1536.824" timestamp="1589718464511" />
+    <state width="339" height="355" key="documentation.popup.size" timestamp="1589549292752">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="339" height="355" key="documentation.popup.size/0.0.1536.824@0.0.1536.824" timestamp="1589549292752" />
+    <state width="308" height="304" key="javadoc.popup.new" timestamp="1589639454353">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="308" height="304" key="javadoc.popup.new/0.0.1536.824@0.0.1536.824" timestamp="1589639454353" />
+    <state x="178" y="22" key="new project wizard" timestamp="1589613833098">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="178" y="22" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1589613833098" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1589712281525">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1589712281525" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-method">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.2.4.RELEASE/spring-security-web-5.2.4.RELEASE-sources.jar!/org/springframework/security/web/authentication/AbstractAuthenticationProcessingFilter.java</url>
+          <line>192</line>
+          <properties class="org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter" method="doFilter">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/spring-securiy-athorization/src/main/java/com/chz/springsecuriyathorization/service/impl/UserDetailsServiceImpl.java</url>
+          <line>33</line>
+          <properties class="com.chz.springsecuriyathorization.service.impl.UserDetailsServiceImpl" method="loadUserByUsername">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-security-error-handler/src/main/java/com/chz/springsecurirylogout/config/SecurityConfig.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/spring-security-session/src/main/java/com/chz/springsecuritysession/controller/LoginController.java</url>
+          <line>104</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/spring-security-session/src/main/java/com/chz/springsecuritysession/controller/LoginController.java</url>
+          <line>107</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.2.4.RELEASE/spring-security-web-5.2.4.RELEASE-sources.jar!/org/springframework/security/web/authentication/UsernamePasswordAuthenticationFilter.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.2.4.RELEASE/spring-security-web-5.2.4.RELEASE-sources.jar!/org/springframework/security/web/authentication/UsernamePasswordAuthenticationFilter.java</url>
+          <line>94</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.2.4.RELEASE/spring-security-core-5.2.4.RELEASE-sources.jar!/org/springframework/security/authentication/ProviderManager.java</url>
+          <line>174</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.2.4.RELEASE/spring-security-core-5.2.4.RELEASE-sources.jar!/org/springframework/security/authentication/dao/AbstractUserDetailsAuthenticationProvider.java</url>
+          <line>175</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.2.4.RELEASE/spring-security-core-5.2.4.RELEASE-sources.jar!/org/springframework/security/authentication/dao/AbstractUserDetailsAuthenticationProvider.java</url>
+          <line>184</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.2.4.RELEASE/spring-security-core-5.2.4.RELEASE-sources.jar!/org/springframework/security/authentication/dao/AbstractUserDetailsAuthenticationProvider.java</url>
+          <line>196</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

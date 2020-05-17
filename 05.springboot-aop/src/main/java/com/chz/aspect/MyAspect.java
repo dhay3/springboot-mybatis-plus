@@ -4,7 +4,14 @@ import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.*;
 import org.springframework.stereotype.Component;
-
+/**
+ * 在所有标注了该注解的方法,执行环绕通知
+ * joinpoint.getArgs() 获取传入方法的参数
+ * joinpoint.getTarget() 获取被代理方法所在的类
+ * joinpoint.getSignature().getName() 获取被代理方法名
+ * joinpoint.getSignature().getDeclaringTypeName() 获取被代理方法所在类的全路径名
+ * 通过强换可以拿到方法
+ */
 @Aspect//标明该类是一个切面
 @Component//联想spring需要将advice包装类注入到ioc, 所以这里要加@Component
 public class MyAspect {
@@ -33,7 +40,7 @@ public class MyAspect {
 
     //    @AfterThrowing(pointcut ="com.chz.pointcut.MyPointcut.pointcutMethod()",
 //    throwing = "e")
-    public void exceptionMethod(Exception e) {
+    public void exceptionMethod(Exception e,JoinPoint joinPoint) {
         System.out.println(e.getMessage());
         System.out.println("afterThrowing invoke ...");
     }

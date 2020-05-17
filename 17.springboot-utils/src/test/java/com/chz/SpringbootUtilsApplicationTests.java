@@ -111,6 +111,9 @@ class SpringbootUtilsApplicationTests {
         String a = null;
         String b = null;
         System.out.println(ObjectUtils.nullSafeEquals(a, b));
+        System.out.println("------------------");
+        User user = new User();
+        System.out.println(ObjectUtils.isEmpty(user));
     }
 
     /**

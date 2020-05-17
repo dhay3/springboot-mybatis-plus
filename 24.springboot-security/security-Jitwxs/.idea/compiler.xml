@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="01.spring-security01" />
+        <module name="05.spring-security-imagecode" />
+        <module name="03.spring-security-logout" />
+        <module name="06.spring-securiy-athorization" />
+        <module name="07.spring-security-session" />
+        <module name="02.spring-securiry-rememberme" />
+        <module name="04.spring-security-error-handler" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="01.spring-security01" target="1.8" />
+      <module name="02.spring-securiry-rememberme" target="1.8" />
+      <module name="03.spring-security-logout" target="1.8" />
+      <module name="04.spring-security-error-handler" target="1.8" />
+      <module name="05.spring-security-imagecode" target="1.8" />
+      <module name="06.spring-securiy-athorization" target="1.8" />
+      <module name="07.spring-security-session" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="01.spring-security01" options="-parameters" />
+      <module name="02.spring-securiry-rememberme" options="-parameters" />
+      <module name="03.spring-security-logout" options="-parameters" />
+      <module name="04.spring-security-error-handler" options="-parameters" />
+      <module name="05.spring-security-imagecode" options="-parameters" />
+      <module name="06.spring-securiy-athorization" options="-parameters" />
+      <module name="07.spring-security-session" options="-parameters" />
+    </option>
+  </component>
+</project>

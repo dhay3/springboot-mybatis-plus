@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="security-athentication" />
+        <module name="01.security-helloworld" />
+        <module name="security-athentaication2" />
+        <module name="security-authentication-image" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="01.security-helloworld" target="1.8" />
+      <module name="security-athentaication2" target="1.8" />
+      <module name="security-athentication" target="1.8" />
+      <module name="security-authentication-image" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="01.security-helloworld" options="-parameters" />
+      <module name="security-athentaication2" options="-parameters" />
+      <module name="security-athentication" options="-parameters" />
+      <module name="security-authentication-image" options="-parameters" />
+    </option>
+  </component>
+</project>
