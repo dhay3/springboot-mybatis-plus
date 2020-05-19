@@ -67,8 +67,9 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     public AuthenticationSuccessHandler successHandler() {
         return new MyAuthenticationSuccessHandler();
     }
+
     @Bean
-    public SessionInformationExpiredStrategy sessionInformationExpiredStrategy(){
+    public SessionInformationExpiredStrategy sessionInformationExpiredStrategy() {
         return new MySessionExpiredStrategy();
     }
 
@@ -110,7 +111,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
      * 包含用户的SessionInformation信息
      */
     @Bean
-    public SessionRegistry sessionRegistry(){
+    public SessionRegistry sessionRegistry() {
         return new SessionRegistryImpl();
     }
 
@@ -127,10 +128,9 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .and()
                 //url过滤链
                 .authorizeRequests()
-                //放行图形验证码
+                //允许匿名访问,认证通过可以访问所有,除有角色认证的api外
                 .antMatchers("/login",
                         "/code/image",
-                        "/checkPerms",
                         "/session/invalid").permitAll()
                 .anyRequest()
                 .authenticated()
@@ -140,13 +140,15 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .successHandler(successHandler())
                 .failureHandler(failureHandler())
                 .and()
+                //登出配置
                 .logout().permitAll()
                 .logoutUrl("/logout")
                 .logoutSuccessUrl("/login")
                 .clearAuthentication(true)
                 .invalidateHttpSession(true)
-                .deleteCookies("JSESSIONID")
+                .deleteCookies("JSESSIONID", "SESSIONID")
                 .and()
+                //记住我配置
                 .rememberMe()
                 .tokenValiditySeconds(60)
                 .tokenRepository(persistentTokenRepository())
@@ -160,13 +162,12 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 //允许登入的最大个数,如果在其他客户端使用当前的账号登入,前者的session将失效
                 //类似于队列,先进先出
                 .maximumSessions(1)
-                //如果为true当登入数达到最大值时，是否允许后者登入
-                .maxSessionsPreventsLogin(false)
+                //如果为true当登入数达到最大值时禁止其他用户登入，是否允许后者登入
+                .maxSessionsPreventsLogin(true)
                 //旧用户被强制登出之后的处理策略
                 .expiredSessionStrategy(sessionInformationExpiredStrategy())
-                .sessionRegistry(sessionRegistry())
-                .and()
-                .and().csrf().disable();
+                .sessionRegistry(sessionRegistry());
+        http.csrf().disable();
     }
 
     @Override

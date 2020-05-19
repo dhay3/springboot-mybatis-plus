@@ -21,7 +21,7 @@ class SpringbootMybatisPlusGeneratorApplicationTests {
     }
     @Test
     public void generator(){
-        //主入口函数的路径
+        //项目路径
         System.out.println(System.getProperty("user.dir"));
 
         //代码生成器

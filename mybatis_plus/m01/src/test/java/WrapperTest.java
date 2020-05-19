@@ -63,6 +63,7 @@ public class WrapperTest {
     /*
         删除email为henry@163
         DELETE FROM tbl_employee WHERE (email = ?)
+        可以是UpdateWrapper或是QueryWrapper
      */
     @Test
     public void test() {

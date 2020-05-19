@@ -9,7 +9,7 @@ import java.time.LocalDateTime;
  * 验证码
  */
 @Data
-public class ImageCode  {
+public class ImageCode {
     private static final long serialVersionUID = -643779290513077666L;
 
     //允许出现的序列值
@@ -23,6 +23,12 @@ public class ImageCode  {
     //验证码长度
     private Integer codeCount = 4;
     private BufferedImage bufferedImage;
+
+    public ImageCode(LocalDateTime ttl, String code, BufferedImage bufferedImage) {
+        this.ttl = ttl;
+        this.code = code;
+        this.bufferedImage = bufferedImage;
+    }
 
     public ImageCode(Integer ttl, BufferedImage bufferedImage) {
         this.ttl = LocalDateTime.now().plusSeconds(ttl);

@@ -29,8 +29,10 @@ public class ValidateController {
     @GetMapping("/code/image")
     public void createImageCode(HttpServletRequest request, HttpServletResponse response) throws IOException {
         ImageCode imageCode = createImageCode(100, 36, 60);
+        //只需要往redis中存验证码即可, 不需要存图片,否则就会抱错
+        ImageCode codeInRedis = new ImageCode(imageCode.getTtl(),imageCode.getCode(),null);
         //存储一个session key 为SESSION_KEY_IMAGE_CODE, 值为imageCode的到session域中
-        sessionStrategy.setAttribute(new ServletWebRequest(request), SESSION_KEY_IMAGE_CODE, imageCode);
+        sessionStrategy.setAttribute(new ServletWebRequest(request), SESSION_KEY_IMAGE_CODE, codeInRedis);
         log.warn("验证码"+imageCode.getCode());
         //将图片写入到前端
         ImageIO.write(imageCode.getBufferedImage(), "png", response.getOutputStream());

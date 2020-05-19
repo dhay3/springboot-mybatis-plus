@@ -18,7 +18,6 @@ public class MyAuthenticationFailureHandler implements AuthenticationFailureHand
     public void onAuthenticationFailure(HttpServletRequest request, HttpServletResponse response, AuthenticationException exception) throws IOException, ServletException {
         response.setStatus(HttpStatus.INTERNAL_SERVER_ERROR.value());
         response.setContentType("application/json;charset=utf-8");
-        System.out.println("failureHandler");
         response.getWriter()
                 .write(mapper.writeValueAsString(exception.getMessage()+"===>校验失败"));
     }

@@ -25,13 +25,14 @@ public class ValidateCodeFilter extends OncePerRequestFilter {
     private SessionStrategy sessionStrategy = new HttpSessionSessionStrategy();
     @Autowired
     AuthenticationFailureHandler failureHandler;
+
     @Override
     protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain filterChain) throws ServletException, IOException {
         if (isProtectedUrl(request)) {
             try {
                 validateCode(new ServletWebRequest(request));
             } catch (ValidateCodeException e) {
-                failureHandler.onAuthenticationFailure(request,response,e);
+                failureHandler.onAuthenticationFailure(request, response, e);
                 return;
             }
         }
@@ -39,21 +40,23 @@ public class ValidateCodeFilter extends OncePerRequestFilter {
     }
 
     /**
-     *  校验验证码
+     * 校验验证码
+     *
      * @param servletWebRequest 通过ServletWebRequest可以拿到webRequest(所有的web request请求)是一个适配器
      * @throws ServletRequestBindingException
      */
     private void validateCode(ServletWebRequest servletWebRequest) throws ServletRequestBindingException {
         ImageCode codeInSession = (ImageCode) sessionStrategy
                 .getAttribute(servletWebRequest, ValidateController.SESSION_KEY_IMAGE_CODE);
+        System.out.println("codeInSession===>" + codeInSession.getCode());
         String codeInRequest = ServletRequestUtils.getStringParameter(servletWebRequest.getRequest(), "imageCode");
-        if (StringUtils.isBlank(codeInRequest)){
+        if (StringUtils.isBlank(codeInRequest)) {
             throw new ValidateCodeException("验证码不能为空");
-        }else if (ObjectUtils.isEmpty(codeInSession)){
+        } else if (ObjectUtils.isEmpty(codeInSession)) {
             throw new ValidateCodeException("验证码不存在");
-        }else if (codeInSession.isExpire()){
+        } else if (codeInSession.isExpire()) {
             throw new ValidateCodeException("验证码过期");
-        }else if (!StringUtils.equalsIgnoreCase(codeInSession.getCode(),codeInRequest)){
+        } else if (!StringUtils.equalsIgnoreCase(codeInSession.getCode(), codeInRequest)) {
             throw new ValidateCodeException("验证码不正确");
         }
         sessionStrategy.removeAttribute(servletWebRequest, ValidateController.SESSION_KEY_IMAGE_CODE);

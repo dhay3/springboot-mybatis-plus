@@ -2,6 +2,7 @@ package com.chz.springsecuritysession.config.component;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.security.web.session.SessionInformationExpiredEvent;
 import org.springframework.security.web.session.SessionInformationExpiredStrategy;
 
@@ -21,6 +22,7 @@ public class MySessionExpiredStrategy implements SessionInformationExpiredStrate
 //        Object principal = event.getSessionInformation().getPrincipal();
 //        System.out.println(principal);
         HttpServletResponse response = event.getResponse();
+        response.setStatus(HttpStatus.UNAUTHORIZED.value());
         response.setContentType("application/json;charset=utf-8");
         HashMap<String, Object> map = new HashMap<>(16);
         //event.getSessionInformation().getLastRequest()获取最后一次请求发送的时间

@@ -27,7 +27,7 @@ public class LoginController {
     @Autowired
     private SessionRegistry sessionRegistry;
     //如果没有指定的mapping就会跳转导该mapping
-    @RequestMapping("/")
+    @RequestMapping("/index")
     public String showHome() {
         //获取当前登录用户的用户名
         String name = SecurityContextHolder.getContext().getAuthentication().getName();
@@ -88,6 +88,7 @@ public class LoginController {
         return "账号或密码错误";
     }
     @ResponseBody
+    @ResponseStatus(HttpStatus.UNAUTHORIZED)
     @GetMapping("/session/invalid")
     public String sessionInvalid(){
         log.info("session===>失效");
@@ -98,7 +99,7 @@ public class LoginController {
      * 根据用户名踢出用户
      */
     @ResponseBody
-    @GetMapping("kick")
+    @GetMapping("/kick")
     public String kick(@RequestParam String username){
         int count =0;
         //获取所有的内置User对象

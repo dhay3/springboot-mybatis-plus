@@ -89,7 +89,9 @@ public class CRUDTest {
         //queryWrapper可以是null
         IPage<Employee> employeeIPage = employeeDao.selectPage(page, null);
         //要通过getRecords()拿到结果
-        System.out.println(employeeIPage.getRecords());
+//        System.out.println(employeeIPage.getRecords());
+        List<Employee> records = employeeIPage.getRecords();
+        records.forEach(System.out::println);
     }
 
     /*
@@ -168,7 +170,7 @@ public class CRUDTest {
     public void test3() {
         Employee employee = new Employee();
         //如果不想修改某个字段,不赋值即可
-        employee.setId(13).setLastName("z3f").setGender(1).setAge(33);
+        employee.setId(13).setLastName("z3f").setAge(33);
         //显示sql当前赋过值的字段
         int i = employeeDao.updateById(employee);
         System.out.println("生效行数:" + i);
