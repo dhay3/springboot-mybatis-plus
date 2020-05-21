@@ -22,6 +22,7 @@ public class TransactionService extends ServiceImpl<EmployeeMapper, Employee> im
         Employee employee = new Employee();
         employee.setLastName("pink floyd").setAge(23).setEmail("123!").setGender("1");
         save(employee);
+        //通过这种方式调用的事务method2()会生效
         otherService.method2();
         System.out.println("方法调用");
         if (true) {

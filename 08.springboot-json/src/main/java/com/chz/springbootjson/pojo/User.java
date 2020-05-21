@@ -43,5 +43,6 @@ public class User implements Serializable {
     @JsonFormat(pattern = "yyyy-MM-dd hh", timezone = "GTM+8")
     @JsonView(AllUserFieldView.class)
     private Date date;
+//    @JsonSerialize
     private String gender;
 }

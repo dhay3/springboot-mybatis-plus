@@ -9,7 +9,7 @@ import java.util.Date;
 
 /**
  * 自定义Json序列化(对象转为json串的格式)
- * 使用时@Serialize(UserSerializer.class)
+ * 使用时@JsonSerialize(UserSerializer.class)
  */
 //public class UserSerializer extends JsonSerializer<User> {
 public class UserSerializer extends JsonSerializer<Date> {

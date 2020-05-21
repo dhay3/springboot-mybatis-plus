@@ -2,37 +2,64 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77ad7cde-b47b-4d90-a879-609ccc6ff3d8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../04.springboot-mybatis-plus-generator/out/production/springboot-mybatis-plus-generator/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04.springboot-mybatis-plus-generator/out/production/springboot-mybatis-plus-generator/com/chz/SpringbootMybatisPlusGeneratorApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04.springboot-mybatis-plus-generator/out/production/springboot-mybatis-plus-generator/com/chz/conf/MybatisPlusConf.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04.springboot-mybatis-plus-generator/out/production/springboot-mybatis-plus-generator/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../04.springboot-mybatis-plus-generator/out/production/springboot-mybatis-plus-generator/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04.springboot-mybatis-plus-generator/out/production/springboot-mybatis-plus-generator/com/chz/conf/MybatisPlusConf.class" beforeDir="false" afterPath="$PROJECT_DIR$/../04.springboot-mybatis-plus-generator/out/production/springboot-mybatis-plus-generator/com/chz/conf/MybatisPlusConf.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../04.springboot-mybatis-plus-generator/out/production/springboot-mybatis-plus-generator/com/chz/conf/component/MyMetaObjectHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04.springboot-mybatis-plus-generator/out/production/springboot-mybatis-plus-generator/com/chz/controller/EmployeeController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04.springboot-mybatis-plus-generator/out/production/springboot-mybatis-plus-generator/com/chz/entity/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04.springboot-mybatis-plus-generator/out/production/springboot-mybatis-plus-generator/com/chz/mapper/EmployeeMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04.springboot-mybatis-plus-generator/out/production/springboot-mybatis-plus-generator/com/chz/service/IEmployeeService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04.springboot-mybatis-plus-generator/out/production/springboot-mybatis-plus-generator/com/chz/service/impl/EmployeeServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04.springboot-mybatis-plus-generator/out/test/springboot-mybatis-plus-generator/com/chz/MPTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04.springboot-mybatis-plus-generator/out/test/springboot-mybatis-plus-generator/com/chz/SpringbootMybatisPlusGeneratorApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04.springboot-mybatis-plus-generator/out/test/springboot-mybatis-plus-generator/com/chz/MPTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../04.springboot-mybatis-plus-generator/out/test/springboot-mybatis-plus-generator/com/chz/MPTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../04.springboot-mybatis-plus-generator/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04.springboot-mybatis-plus-generator/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04.springboot-mybatis-plus-generator/src/main/java/com/chz/conf/component/MyMetaObjectHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04.springboot-mybatis-plus-generator/src/main/java/com/chz/conf/component/MyMetaObjectHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04.springboot-mybatis-plus-generator/src/main/java/com/chz/entity/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04.springboot-mybatis-plus-generator/src/main/java/com/chz/entity/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04.springboot-mybatis-plus-generator/src/main/java/com/chz/conf/MybatisPlusConf.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04.springboot-mybatis-plus-generator/src/main/java/com/chz/conf/MybatisPlusConf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04.springboot-mybatis-plus-generator/src/main/java/com/chz/conf/component/MyMetaObjectHandler.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../04.springboot-mybatis-plus-generator/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../04.springboot-mybatis-plus-generator/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../04.springboot-mybatis-plus-generator/src/test/java/com/chz/MPTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04.springboot-mybatis-plus-generator/src/test/java/com/chz/MPTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06.springboot-thymeleaf/out/production/springboot-thymeleaf/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06.springboot-thymeleaf/out/production/springboot-thymeleaf/com/chz/SpringbootThymeleafApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06.springboot-thymeleaf/out/production/springboot-thymeleaf/com/chz/controller/IndexController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06.springboot-thymeleaf/out/production/springboot-thymeleaf/com/chz/pojo/Account.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06.springboot-thymeleaf/out/production/springboot-thymeleaf/templates/elvis.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06.springboot-thymeleaf/out/production/springboot-thymeleaf/templates/list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06.springboot-thymeleaf/out/test/springboot-thymeleaf/com/chz/SpringbootThymeleafApplicationTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06.springboot-thymeleaf/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../06.springboot-thymeleaf/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07.springboot-mybatis-redis/out/production/springboot-mybatis-redis/META-INF/springboot-mybatis-redis.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07.springboot-mybatis-redis/out/production/springboot-mybatis-redis/com/chz/entity/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/../07.springboot-mybatis-redis/out/production/springboot-mybatis-redis/com/chz/entity/Employee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07.springboot-mybatis-redis/out/test/springboot-mybatis-redis/com/chz/SpringbootMybatisRedisApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/../07.springboot-mybatis-redis/out/test/springboot-mybatis-redis/com/chz/SpringbootMybatisRedisApplicationTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07.springboot-mybatis-redis/src/main/java/com/chz/entity/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../07.springboot-mybatis-redis/src/main/java/com/chz/entity/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07.springboot-mybatis-redis/src/main/java/com/chz/mapper/EmployeeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../07.springboot-mybatis-redis/src/main/java/com/chz/mapper/EmployeeMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07.springboot-mybatis-redis/src/test/java/com/chz/SpringbootMybatisRedisApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../07.springboot-mybatis-redis/src/test/java/com/chz/SpringbootMybatisRedisApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/m01/src/test/java/WrapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/m01/src/test/java/WrapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10.springboot-transaction/out/production/springboot-transaction/com/chz/conf/MybatisPlusConf.class" beforeDir="false" afterPath="$PROJECT_DIR$/../10.springboot-transaction/out/production/springboot-transaction/com/chz/conf/MybatisPlusConf.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10.springboot-transaction/out/production/springboot-transaction/com/chz/service/impl/TransactionService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../10.springboot-transaction/out/production/springboot-transaction/com/chz/service/impl/TransactionService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10.springboot-transaction/src/main/java/com/chz/conf/MybatisPlusConf.java" beforeDir="false" afterPath="$PROJECT_DIR$/../10.springboot-transaction/src/main/java/com/chz/conf/MybatisPlusConf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10.springboot-transaction/src/main/java/com/chz/service/impl/TransactionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../10.springboot-transaction/src/main/java/com/chz/service/impl/TransactionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10.springboot-transaction/src/test/java/com/chz/SpringbootTransactionApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../10.springboot-transaction/src/test/java/com/chz/SpringbootTransactionApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m01/out/production/m01/com/chz/dao/EmployeeDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m01/out/production/m01/com/chz/entity/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m01/out/production/m01/conf/IbtisConf.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m01/out/production/m01/conf/spring-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m01/out/production/m01/db.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m01/out/production/m01/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m01/out/test/m01/CRUDTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m01/out/test/m01/WrapperTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m02/out/production/m02/com/chz/dao/EmployeeDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m02/out/production/m02/com/chz/entity/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m02/out/test/m02/CRUDTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m03/out/production/m03/com/chz/controller/TblEmployeeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m03/out/production/m03/com/chz/entity/TblEmployee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m03/out/production/m03/com/chz/mapper/TblEmployeeMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m03/out/production/m03/com/chz/service/TblEmployeeAAAA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m03/out/production/m03/com/chz/service/impl/TblEmployeeServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m03/out/test/m03/Generator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m03/out/test/m03/ServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m04/out/production/m04/com/chz/controller/TblEmployeeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m04/out/production/m04/com/chz/entity/TblEmployee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m04/out/production/m04/com/chz/mapper/TblEmployeeMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m04/out/production/m04/com/chz/service/TblEmployeeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m04/out/production/m04/com/chz/service/impl/TblEmployeeServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m04/out/test/m04/MPTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/m05/com/chz/controller/TblEmployeeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/m05/com/chz/entity/TblEmployee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/m05/com/chz/injector/DeleteAll.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/m05/com/chz/injector/MyInjector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/m05/com/chz/mapper/TblEmployeeMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/m05/com/chz/service/TblEmployeeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/m05/com/chz/service/impl/TblEmployeeServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/m05/conf/IbtisConf.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/m05/conf/spring-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/m05/db.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/m05/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/m06/com/chz/dao/EmployeeDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/m06/com/chz/entity/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/m06/com/chz/handler/MyHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/m06/conf/IbtisConf.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/m06/conf/spring-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/m06/db.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/m06/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/m05/MPTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/m06/MPTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,11 +84,11 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/m02/src/main/resources/conf/spring-config.xml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/m03/src/test/java/Generator.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/m04/src/test/java/MPTest.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/m04/src/main/resources/conf/spring-config.xml" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/m05/src/main/java/com/chz/mapper/TblEmployeeMapper.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/m06/src/main/resources/conf/spring-config.xml" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/m03/src/test/java/Generator.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/m04/src/test/java/MPTest.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -81,7 +108,6 @@
         <option name="downloadAnnotationsAutomatically" value="true" />
         <option name="downloadDocsAutomatically" value="true" />
         <option name="downloadSourcesAutomatically" value="true" />
-        <option name="importAutomatically" value="true" />
         <option name="useMavenOutput" value="false" />
         <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
@@ -93,14 +119,13 @@
   <component name="ProjectId" id="1aLTPv3HuF5h7WQ0X7RWdRrCZS8" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../04.springboot-mybatis-plus-generator" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -112,7 +137,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.31724137" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
@@ -129,49 +154,52 @@
       <recent name="D:\workspace_for_idea\mybatis_plus\m04\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ServiceTest.test1">
-    <configuration name="Generator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Generator" />
-      <module name="m03" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CRUDTest.tests3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CRUDTest.test3">
+    <configuration name="CRUDTest.test10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="m01" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="CRUDTest" />
-      <option name="METHOD_NAME" value="tests3" />
+      <option name="METHOD_NAME" value="test10" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MPTest.test (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="m06" />
+    <configuration name="CRUDTest.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="m01" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MPTest" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="CRUDTest" />
+      <option name="METHOD_NAME" value="test3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MPTest.test2 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="m06" />
+    <configuration name="CRUDTest.test6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="m01" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MPTest" />
-      <option name="METHOD_NAME" value="test2" />
+      <option name="MAIN_CLASS_NAME" value="CRUDTest" />
+      <option name="METHOD_NAME" value="test6" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ServiceTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="m03" />
+    <configuration name="CRUDTest.testM2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="m01" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ServiceTest" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="MAIN_CLASS_NAME" value="CRUDTest" />
+      <option name="METHOD_NAME" value="testM2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CRUDTest.tetstt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="m01" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CRUDTest" />
+      <option name="METHOD_NAME" value="tetstt" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -179,11 +207,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ServiceTest.test1" />
-        <item itemvalue="Application.Generator" />
-        <item itemvalue="JUnit.CRUDTest.tests3" />
-        <item itemvalue="JUnit.MPTest.test2 (1)" />
-        <item itemvalue="JUnit.MPTest.test (2)" />
+        <item itemvalue="JUnit.CRUDTest.test3" />
+        <item itemvalue="JUnit.CRUDTest.test10" />
+        <item itemvalue="JUnit.CRUDTest.test6" />
+        <item itemvalue="JUnit.CRUDTest.testM2" />
+        <item itemvalue="JUnit.CRUDTest.tetstt" />
       </list>
     </recent_temporary>
   </component>
@@ -215,49 +243,66 @@
       <workItem from="1587621509053" duration="3235000" />
       <workItem from="1587626599640" duration="973000" />
       <workItem from="1587991931389" duration="723000" />
+      <workItem from="1589801694816" duration="69000" />
+      <workItem from="1589802906679" duration="3578000" />
+      <workItem from="1589898485324" duration="1692000" />
+      <workItem from="1589932283126" duration="507000" />
+      <workItem from="1589932875886" duration="72000" />
+      <workItem from="1589933236693" duration="568000" />
+      <workItem from="1589934029043" duration="418000" />
+      <workItem from="1589934470214" duration="88000" />
+      <workItem from="1589934589350" duration="21000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="71" key="#Project_Structure" timestamp="1586598151532">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="71" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1586598151532" />
+    <state x="511" y="248" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1589933417215">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="511" y="248" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1536.824@0.0.1536.824" timestamp="1589933417215" />
     <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1586601082034">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1586601082034" />
+    <state x="449" y="147" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1589932927822">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="449" y="147" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1589932927822" />
     <state x="548" y="271" width="439" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1586916504290">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="548" y="271" width="439" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1586916504290" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1587621557437">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1589934608316">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1587621557437" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1589934608315" />
     <state x="361" y="71" key="GrepConsoleSettings" timestamp="1586514575049">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="71" key="GrepConsoleSettings/0.0.1536.824@0.0.1536.824" timestamp="1586514575049" />
-    <state width="1493" height="639" key="GridCell.Tab.0.bottom" timestamp="1586917083204">
+    <state width="1493" height="639" key="GridCell.Tab.0.bottom" timestamp="1589806488462">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="639" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586917083204" />
-    <state width="1493" height="639" key="GridCell.Tab.0.center" timestamp="1586917083204">
+    <state width="1493" height="639" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589806488462" />
+    <state width="1493" height="639" key="GridCell.Tab.0.center" timestamp="1589806488462">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="639" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586917083204" />
-    <state width="1493" height="639" key="GridCell.Tab.0.left" timestamp="1586917083204">
+    <state width="1493" height="639" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1589806488462" />
+    <state width="1493" height="639" key="GridCell.Tab.0.left" timestamp="1589806488461">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="639" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586917083204" />
-    <state width="1493" height="639" key="GridCell.Tab.0.right" timestamp="1586917083204">
+    <state width="1493" height="639" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1589806488461" />
+    <state width="1493" height="639" key="GridCell.Tab.0.right" timestamp="1589806488462">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="639" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586917083204" />
+    <state width="1493" height="639" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1589806488462" />
     <state width="1493" height="255" key="GridCell.Tab.1.bottom" timestamp="1586605284623">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -274,14 +319,18 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="255" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1586605284623" />
-    <state x="249" y="0" key="SettingsEditor" timestamp="1586917062891">
+    <state x="249" y="0" key="SettingsEditor" timestamp="1589934447034">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1586917062891" />
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1589934447034" />
     <state x="490" y="154" width="561" height="524" key="StructurePopup" timestamp="1586522085998">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="490" y="154" width="561" height="524" key="StructurePopup/0.0.1536.824@0.0.1536.824" timestamp="1586522085998" />
+    <state x="313" y="141" width="909" height="640" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1589934498501">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="313" y="141" width="909" height="640" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.824@0.0.1536.824" timestamp="1589934498501" />
     <state x="178" y="22" key="new project wizard" timestamp="1587993666084">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

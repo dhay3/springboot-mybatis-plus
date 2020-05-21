@@ -55,7 +55,7 @@ public class MockTest2 {
         MvcResult mvcResult = mockMvc.perform(
                 MockMvcRequestBuilders
                         .get("/employee/get/{id}", 15))
-                //期望返回值是json类型的
+                //期望返回值是json类型的,alwaysExpect只针对response
                 .andExpect(MockMvcResultMatchers.content()
                         .contentType("application/json"))
                 //可以拿到request和response中的参数
@@ -105,6 +105,7 @@ public class MockTest2 {
         mockMvc.perform(MockMvcRequestBuilders
                 .post("/employee/get?name={name}", "Black"))
                 //指定返回的json值, 这里的$表示json的根节点
+                //即表示lastName的值为Black
                 .andExpect(MockMvcResultMatchers.jsonPath("$.lastName")
                         .value("Black"));
     }

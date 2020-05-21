@@ -49,6 +49,7 @@ public class EmployeeController {
     }
 
     @ApiOperation(value = "添加用户", notes = "传过来的参数可以不一样")
+    //这里的/add是多余的
     @PostMapping("/add")
     public boolean add(@RequestBody Employee employee) {
         return employeeService.save(employee);

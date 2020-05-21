@@ -21,6 +21,7 @@ import java.io.IOException;
 import java.net.URLEncoder;
 import java.nio.file.Paths;
 import java.util.Arrays;
+import java.util.List;
 import java.util.stream.Collectors;
 
 /**
@@ -146,6 +147,15 @@ public class EmployeeController {
     public String modelTest(Model model) {
         model.addAttribute("key", "value");
         return "view";
+    }
+
+    /**
+     * produces表示request中的accepts, 也是方法返回的数据类型,一般用于指定charset
+     */
+    @ResponseBody
+    @GetMapping(path = "/produces",produces = "application/json;charset=utf-8")
+    public List<Employee> list(){
+        return employeeService.list();
     }
 }
 

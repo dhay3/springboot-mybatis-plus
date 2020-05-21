@@ -12,6 +12,7 @@ import java.util.ArrayList;
 /**
  * mybatis-plus 配置类
  */
+//@EnableTransactionManagement可以不用添加,springboot已经自动实现,直接使用@Transcational即可
 @Configuration
 public class MybatisPlusConf {
     //分页配置

@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/spring-security-imagecode/pom.xml" />
         <option value="$PROJECT_DIR$/spring-securiy-athorization/pom.xml" />
         <option value="$PROJECT_DIR$/spring-security-session/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-security-sms/pom.xml" />
       </list>
     </option>
   </component>

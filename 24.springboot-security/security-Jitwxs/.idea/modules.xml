@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/spring-security-imagecode/05.spring-security-imagecode.iml" filepath="$PROJECT_DIR$/spring-security-imagecode/05.spring-security-imagecode.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-securiy-athorization/06.spring-securiy-athorization.iml" filepath="$PROJECT_DIR$/spring-securiy-athorization/06.spring-securiy-athorization.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-security-session/07.spring-security-session.iml" filepath="$PROJECT_DIR$/spring-security-session/07.spring-security-session.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-security-sms/08.spring-security-sms.iml" filepath="$PROJECT_DIR$/spring-security-sms/08.spring-security-sms.iml" />
     </modules>
   </component>
 </project>
