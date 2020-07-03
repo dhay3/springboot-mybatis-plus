@@ -98,9 +98,11 @@ public class MPTest {
 
     @Test
     public void testPage() {
-        //对逻辑删除的不会记录在内
-        Page<Employee> page = new Page<>(0, 4);
-        Page<Employee> employeePage = employeeService.page(page,
+        //对逻辑删除的不会记录在内,
+        Page<Employee> employeePage = new Page<>(0, 4);
+        //page方法会把结果封装到employeePage中
+         employeeService.page(employeePage,
+//        Page<Employee> employeePage = employeeService.page(page,
                 new QueryWrapper<Employee>().orderByDesc("id"));
 
         List<Employee> records = employeePage.getRecords();

@@ -7,13 +7,13 @@ import javax.validation.constraints.NotNull;
 
 /**
  * 动态sql,支持链式编程
- * 自定provider继承ProviderMethodResolver
- * 且mapper中的方法名和自定义的Provider中的方法名一致,就可以省略@SelectProvider中method
+ * provider继承ProviderMethodResolver且mapper中的方法名和自定义的Provider中的方法名一致,就可以省略@SelectProvider中method
  */
 public class UserSqlProvider implements ProviderMethodResolver {
+    //如果不使用 @Param，就应该定义与 mapper 方法相同的参数
     //采用这种方式可以减少代码冗余
     //name 和 age是从mapper中传过来的参数
-    public static String dynGet(final String name, final Integer age) {
+    public  String dynGet(final String name, final Integer age) {
         //采用局部匿名内部内参数要用final
         return new SQL() {
             {
@@ -31,7 +31,7 @@ public class UserSqlProvider implements ProviderMethodResolver {
     }
 
     //同样的必须要有一个条件,如果不需要做条件判断就不用给值,通过调用的函数给#{...}赋值
-    public static String dynUpdate(@NotNull final String name, final Integer age) {
+    public  String dynUpdate(@NotNull final String name, final Integer age) {
         return new SQL() {
             {
                 UPDATE("tbl_teacher");

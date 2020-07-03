@@ -1,7 +1,6 @@
 package com.chz.springbootconfig;
 
 import com.chz.springbootconfig.pojo.PeopleProperties;
-import com.chz.springbootconfig.pojo.TestProperty;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.Banner;
 import org.springframework.boot.SpringApplication;
@@ -11,7 +10,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 //@EnableConfigurationProperties bean会被注册到ioc中
-@EnableConfigurationProperties({PeopleProperties.class, TestProperty.class})
+//@EnableConfigurationProperties({PeopleProperties.class, TestProperty.class})
+@EnableConfigurationProperties({PeopleProperties.class})
 //主入口类同时也一个配置类
 @SpringBootApplication
 @RestController

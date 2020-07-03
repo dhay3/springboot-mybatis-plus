@@ -153,7 +153,7 @@ public class CRUDTest {
     @Test
     public void test2() {
         Employee employee = new Employee();
-        employee.setLastName("Oka").setEmail("oka@").setGender(2).setAge(3).setSalary(1000D);
+//        employee.setLastName("Oka").setEmail("oka@").setGender(2).setAge(3).setSalary(1000D);
         employee.setLastName("z3").setGender(1);
         //insert显示sql当前赋过值的字段
         int num = employeeDao.insert(employee);
@@ -191,6 +191,15 @@ public class CRUDTest {
         //封装条件
         map.put("age", 22);
         employeeDao.deleteByMap(map);
+    }
+
+    @Test
+    public void test8() {
+        Employee employee = new Employee();
+        //如果有主键自增策略, 主键策略优先
+        //如果是mp默认的uuid策略, 自定义的主键优先
+        employee.setId(1001).setLastName("莎士比亚");
+        employeeDao.insert(employee);
     }
 
 }

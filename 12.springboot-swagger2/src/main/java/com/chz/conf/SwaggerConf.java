@@ -1,10 +1,10 @@
 package com.chz.conf;
 
+import com.google.common.base.Predicates;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import springfox.documentation.builders.ApiInfoBuilder;
 import springfox.documentation.builders.PathSelectors;
-import springfox.documentation.builders.RequestHandlerSelectors;
 import springfox.documentation.service.ApiInfo;
 import springfox.documentation.service.Contact;
 import springfox.documentation.spi.DocumentationType;
@@ -19,7 +19,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @EnableSwagger2
 public class SwaggerConf {
     //扫描restful api的包路径
-    public static final String SWAGGER_SCAN_BASE_PACKAGE = "com.chz.controller";
+//    public static final String SWAGGER_SCAN_BASE_PACKAGE = "com.chz.controller";
     //版本
     public static final String VERSION = "1.1";
 
@@ -30,11 +30,15 @@ public class SwaggerConf {
     public Docket createRestApi() {
         return new Docket(DocumentationType.SWAGGER_2)
                 .apiInfo(apiInfo())
+                //会自动扫描所有路径
                 .select()
-                //会扫描包下所有@Api注解的controller,不需要指明entity所在的类(entity配置的注解自动生效)
-                .apis(RequestHandlerSelectors.basePackage(SWAGGER_SCAN_BASE_PACKAGE))
+                //不需要指明entity所在的类(entity配置的注解自动生效)
+//                .apis(RequestHandlerSelectors.basePackage(SWAGGER_SCAN_BASE_PACKAGE))
                 //可以根据url路径设置那些请求加入文档, 忽略哪些请求
-                .paths(PathSelectors.any())
+//                .paths(PathSelectors.any())
+                //这些都是springboot中默认的一些url, 需要忽略
+                .paths(Predicates.not(PathSelectors.regex("/admin/.*")))
+                .paths(Predicates.not(PathSelectors.regex("/error.*")))
                 .build();
     }
 

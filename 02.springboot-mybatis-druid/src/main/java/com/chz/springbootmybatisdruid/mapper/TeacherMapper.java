@@ -39,10 +39,10 @@ public interface TeacherMapper {
 
     //动态更新sql
     @UpdateProvider(type = UserSqlProvider.class)
-    boolean dynUpdate(String name, Integer age, Integer id);
+    boolean dynUpdate(@Param("name") String name, @Param("age") Integer age, @Param("id") Integer id);
 
     @UpdateProvider(type = UserSqlProvider.class)
-    //动态删除sql(被druid屏蔽了)
+        //动态删除sql(被druid屏蔽了)
     boolean dynDelete(Integer id);
 
     //动态增加sql

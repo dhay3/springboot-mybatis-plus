@@ -2,58 +2,259 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="646f6e4a-0db8-4168-9ebe-8a69ce95ee5f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/out/production/07.spring-security-session/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/07.spring-security-session/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/07.spring-security-session/com/chz/springsecuritysession/SpringSecuritySessionApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/07.spring-security-session/com/chz/springsecuritysession/SpringSecuritySessionApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/07.spring-security-session/com/chz/springsecuritysession/code/ImageCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/07.spring-security-session/com/chz/springsecuritysession/code/ImageCode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/07.spring-security-session/com/chz/springsecuritysession/code/ValidateCodeFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/07.spring-security-session/com/chz/springsecuritysession/code/ValidateCodeFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/07.spring-security-session/com/chz/springsecuritysession/config/SecurityConfig$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/07.spring-security-session/com/chz/springsecuritysession/config/SecurityConfig$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/07.spring-security-session/com/chz/springsecuritysession/config/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/07.spring-security-session/com/chz/springsecuritysession/config/SecurityConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/07.spring-security-session/com/chz/springsecuritysession/config/component/MySessionExpiredStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/07.spring-security-session/com/chz/springsecuritysession/config/component/MySessionExpiredStrategy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/07.spring-security-session/com/chz/springsecuritysession/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/07.spring-security-session/com/chz/springsecuritysession/controller/LoginController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/07.spring-security-session/com/chz/springsecuritysession/controller/ValidateController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/07.spring-security-session/com/chz/springsecuritysession/controller/ValidateController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/07.spring-security-session/com/chz/springsecuritysession/handler/AuthorizationAccessDeniedHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/07.spring-security-session/com/chz/springsecuritysession/handler/AuthorizationAccessDeniedHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/07.spring-security-session/com/chz/springsecuritysession/handler/MyAuthenticationFailureHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/07.spring-security-session/com/chz/springsecuritysession/handler/MyAuthenticationFailureHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/07.spring-security-session/com/chz/springsecuritysession/handler/MyAuthenticationSuccessHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/07.spring-security-session/com/chz/springsecuritysession/handler/MyAuthenticationSuccessHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-session/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-session/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-session/src/main/java/com/chz/springsecuritysession/SpringSecuritySessionApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-session/src/main/java/com/chz/springsecuritysession/SpringSecuritySessionApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-session/src/main/java/com/chz/springsecuritysession/code/ImageCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-session/src/main/java/com/chz/springsecuritysession/code/ImageCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-session/src/main/java/com/chz/springsecuritysession/code/ValidateCodeFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-session/src/main/java/com/chz/springsecuritysession/code/ValidateCodeFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-session/src/main/java/com/chz/springsecuritysession/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-session/src/main/java/com/chz/springsecuritysession/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-session/src/main/java/com/chz/springsecuritysession/config/component/MySessionExpiredStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-session/src/main/java/com/chz/springsecuritysession/config/component/MySessionExpiredStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-session/src/main/java/com/chz/springsecuritysession/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-session/src/main/java/com/chz/springsecuritysession/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-session/src/main/java/com/chz/springsecuritysession/controller/ValidateController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-session/src/main/java/com/chz/springsecuritysession/controller/ValidateController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-session/src/main/java/com/chz/springsecuritysession/handler/AuthorizationAccessDeniedHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-session/src/main/java/com/chz/springsecuritysession/handler/AuthorizationAccessDeniedHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-session/src/main/java/com/chz/springsecuritysession/handler/MyAuthenticationFailureHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-session/src/main/java/com/chz/springsecuritysession/handler/MyAuthenticationFailureHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-session/src/main/java/com/chz/springsecuritysession/handler/MyAuthenticationSuccessHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-session/src/main/java/com/chz/springsecuritysession/handler/MyAuthenticationSuccessHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-session/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-session/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../springboot-redis/out/production/springboot-redis/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../springboot-redis/out/production/springboot-redis/com/chz/SpringbootRedisApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../springboot-redis/out/production/springboot-redis/com/chz/conf/MybatisPlusConf.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../springboot-redis/out/production/springboot-redis/com/chz/conf/component/MyMetaObjectHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../springboot-redis/out/production/springboot-redis/com/chz/controller/EmployeeController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../springboot-redis/out/production/springboot-redis/com/chz/entity/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../springboot-redis/out/production/springboot-redis/com/chz/mapper/EmployeeMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../springboot-redis/out/production/springboot-redis/com/chz/service/IEmployeeService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../springboot-redis/out/production/springboot-redis/com/chz/service/impl/EmployeeServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../springboot-redis/out/test/springboot-redis/com/chz/CacheTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../springboot-redis/out/test/springboot-redis/com/chz/SpringbootRedisApplicationTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../springboot-redis/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../springboot-redis/src/main/java/com/chz/SpringbootRedisApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../springboot-redis/src/main/java/com/chz/conf/MybatisPlusConf.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../springboot-redis/src/main/java/com/chz/conf/component/MyMetaObjectHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../springboot-redis/src/main/java/com/chz/controller/EmployeeController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../springboot-redis/src/main/java/com/chz/entity/Employee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../springboot-redis/src/main/java/com/chz/mapper/EmployeeMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../springboot-redis/src/main/java/com/chz/mapper/EmployeeMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../springboot-redis/src/main/java/com/chz/service/IEmployeeService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../springboot-redis/src/main/java/com/chz/service/impl/EmployeeServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../springboot-redis/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../springboot-redis/src/test/java/com/chz/CacheTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../springboot-redis/src/test/java/com/chz/SpringbootRedisApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../springboot-servlet-filter-listener-interceptor/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../springboot-servlet-filter-listener-interceptor/src/main/java/com/chz/SpringbootServletFilterListenerInterceptorApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../springboot-servlet-filter-listener-interceptor/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../springboot-servlet-filter-listener-interceptor/src/test/java/com/chz/SpringbootServletFilterListenerInterceptorApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02.springboot-mybatis-druid/out/production/springboot-mybatis-druid/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../02.springboot-mybatis-druid/out/production/springboot-mybatis-druid/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02.springboot-mybatis-druid/out/production/springboot-mybatis-druid/com/chz/springbootmybatisdruid/mapper/TeacherMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../02.springboot-mybatis-druid/out/production/springboot-mybatis-druid/com/chz/springbootmybatisdruid/mapper/TeacherMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02.springboot-mybatis-druid/out/production/springboot-mybatis-druid/com/chz/springbootmybatisdruid/mapper/sql/UserSqlProvider$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../02.springboot-mybatis-druid/out/production/springboot-mybatis-druid/com/chz/springbootmybatisdruid/mapper/sql/UserSqlProvider$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02.springboot-mybatis-druid/out/production/springboot-mybatis-druid/com/chz/springbootmybatisdruid/mapper/sql/UserSqlProvider$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../02.springboot-mybatis-druid/out/production/springboot-mybatis-druid/com/chz/springbootmybatisdruid/mapper/sql/UserSqlProvider$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02.springboot-mybatis-druid/out/production/springboot-mybatis-druid/com/chz/springbootmybatisdruid/mapper/sql/UserSqlProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../02.springboot-mybatis-druid/out/production/springboot-mybatis-druid/com/chz/springbootmybatisdruid/mapper/sql/UserSqlProvider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02.springboot-mybatis-druid/out/test/springboot-mybatis-druid/com/chz/springbootmybatisdruid/SpringbootMybatisDruidApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../02.springboot-mybatis-druid/out/test/springboot-mybatis-druid/com/chz/springbootmybatisdruid/SpringbootMybatisDruidApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02.springboot-mybatis-druid/src/main/java/com/chz/springbootmybatisdruid/mapper/TeacherMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../02.springboot-mybatis-druid/src/main/java/com/chz/springbootmybatisdruid/mapper/TeacherMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02.springboot-mybatis-druid/src/main/java/com/chz/springbootmybatisdruid/mapper/sql/UserSqlProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../02.springboot-mybatis-druid/src/main/java/com/chz/springbootmybatisdruid/mapper/sql/UserSqlProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02.springboot-mybatis-druid/src/test/java/com/chz/springbootmybatisdruid/SpringbootMybatisDruidApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../02.springboot-mybatis-druid/src/test/java/com/chz/springbootmybatisdruid/SpringbootMybatisDruidApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04.springboot-mybatis-plus-generator/out/test/springboot-mybatis-plus-generator/com/chz/MPTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../04.springboot-mybatis-plus-generator/out/test/springboot-mybatis-plus-generator/com/chz/MPTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04.springboot-mybatis-plus-generator/out/test/springboot-mybatis-plus-generator/com/chz/SpringbootMybatisPlusGeneratorApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../04.springboot-mybatis-plus-generator/out/test/springboot-mybatis-plus-generator/com/chz/SpringbootMybatisPlusGeneratorApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04.springboot-mybatis-plus-generator/src/test/java/com/chz/MPTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../04.springboot-mybatis-plus-generator/src/test/java/com/chz/MPTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04.springboot-mybatis-plus-generator/src/test/java/com/chz/SpringbootMybatisPlusGeneratorApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../04.springboot-mybatis-plus-generator/src/test/java/com/chz/SpringbootMybatisPlusGeneratorApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../12.springboot-swagger2/src/main/java/com/chz/conf/SwaggerConf.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../12.springboot-swagger2/src/main/java/com/chz/conf/SwaggerConf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../18.springboot-exception/out/production/springboot-exception/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../18.springboot-exception/out/production/springboot-exception/com/chz/SpringbootExceptionApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../18.springboot-exception/out/production/springboot-exception/com/chz/component/MyErrorAttributes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../18.springboot-exception/out/production/springboot-exception/com/chz/controller/TestController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../18.springboot-exception/out/production/springboot-exception/com/chz/controller/TestController2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../18.springboot-exception/out/production/springboot-exception/com/chz/controller/TestExceptionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../18.springboot-exception/out/production/springboot-exception/com/chz/exception/UserNotExistException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../18.springboot-exception/out/production/springboot-exception/templates/error/4xx.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../18.springboot-exception/out/production/springboot-exception/templates/error/500.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../18.springboot-exception/out/production/springboot-exception/templates/success.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../18.springboot-exception/out/test/springboot-exception/com/chz/SpringbootExceptionApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../23.2springboot-cors2/out/production/springboot-cors2/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../23.2springboot-cors2/out/production/springboot-cors2/com/chz/SpringbootCors2Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../23.2springboot-cors2/out/production/springboot-cors2/com/chz/conf/CorsConf.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../23.2springboot-cors2/out/production/springboot-cors2/com/chz/controller/CorsController8081.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../23.2springboot-cors2/out/test/springboot-cors2/com/chz/SpringbootCors2ApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/01.spring-security01/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/01.spring-security01/com/chz/springsecurity01/SpringSecurity01Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/01.spring-security01/com/chz/springsecurity01/config/SecurityConfig$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/01.spring-security01/com/chz/springsecurity01/config/SecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/01.spring-security01/com/chz/springsecurity01/controller/LoginController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/01.spring-security01/com/chz/springsecurity01/entity/Role.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/01.spring-security01/com/chz/springsecurity01/entity/UserDO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/01.spring-security01/com/chz/springsecurity01/entity/UserRole.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/01.spring-security01/com/chz/springsecurity01/mapper/RoleMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/01.spring-security01/com/chz/springsecurity01/mapper/UserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/01.spring-security01/com/chz/springsecurity01/mapper/UserRoleMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/01.spring-security01/com/chz/springsecurity01/service/IRoleService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/01.spring-security01/com/chz/springsecurity01/service/IUserRoleService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/01.spring-security01/com/chz/springsecurity01/service/IUserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/01.spring-security01/com/chz/springsecurity01/service/impl/RoleServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/01.spring-security01/com/chz/springsecurity01/service/impl/UserDetailsServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/01.spring-security01/com/chz/springsecurity01/service/impl/UserRoleServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/01.spring-security01/com/chz/springsecurity01/service/impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/01.spring-security01/static/css/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/01.spring-security01/templates/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/01.spring-security01/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/02.spring-securiry-rememberme/META-INF/02.spring-securiry-rememberme.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/02.spring-securiry-rememberme/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/02.spring-securiry-rememberme/com/chz/config/SecurityConfig$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/02.spring-securiry-rememberme/com/chz/config/SecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/02.spring-securiry-rememberme/com/chz/controller/LoginController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/02.spring-securiry-rememberme/com/chz/entity/Role.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/02.spring-securiry-rememberme/com/chz/entity/UserDO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/02.spring-securiry-rememberme/com/chz/entity/UserRole.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/02.spring-securiry-rememberme/com/chz/mapper/RoleMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/02.spring-securiry-rememberme/com/chz/mapper/UserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/02.spring-securiry-rememberme/com/chz/mapper/UserRoleMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/02.spring-securiry-rememberme/com/chz/service/IRoleService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/02.spring-securiry-rememberme/com/chz/service/IUserRoleService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/02.spring-securiry-rememberme/com/chz/service/IUserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/02.spring-securiry-rememberme/com/chz/service/impl/RoleServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/02.spring-securiry-rememberme/com/chz/service/impl/UserRoleServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/02.spring-securiry-rememberme/com/chz/service/impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/02.spring-securiry-rememberme/com/chz/springsecurirylogout/SpringSecuriryRemembermeApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/02.spring-securiry-rememberme/com/chz/springsecurirylogout/service/impl/UserDetailsServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/02.spring-securiry-rememberme/static/css/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/02.spring-securiry-rememberme/templates/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/02.spring-securiry-rememberme/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/03.spring-security-logout/META-INF/03.spring-security-logout.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/03.spring-security-logout/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/03.spring-security-logout/com/chz/springsecurirylogout/SpringSecurityLogoutApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/03.spring-security-logout/com/chz/springsecurirylogout/config/SecurityConfig$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/03.spring-security-logout/com/chz/springsecurirylogout/config/SecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/03.spring-security-logout/com/chz/springsecurirylogout/controller/LoginController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/03.spring-security-logout/com/chz/springsecurirylogout/entity/Role.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/03.spring-security-logout/com/chz/springsecurirylogout/entity/UserDO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/03.spring-security-logout/com/chz/springsecurirylogout/entity/UserRole.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/03.spring-security-logout/com/chz/springsecurirylogout/handler/MyLogoutSuccessHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/03.spring-security-logout/com/chz/springsecurirylogout/mapper/RoleMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/03.spring-security-logout/com/chz/springsecurirylogout/mapper/UserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/03.spring-security-logout/com/chz/springsecurirylogout/mapper/UserRoleMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/03.spring-security-logout/com/chz/springsecurirylogout/service/IRoleService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/03.spring-security-logout/com/chz/springsecurirylogout/service/IUserRoleService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/03.spring-security-logout/com/chz/springsecurirylogout/service/IUserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/03.spring-security-logout/com/chz/springsecurirylogout/service/impl/RoleServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/03.spring-security-logout/com/chz/springsecurirylogout/service/impl/UserDetailsServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/03.spring-security-logout/com/chz/springsecurirylogout/service/impl/UserRoleServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/03.spring-security-logout/com/chz/springsecurirylogout/service/impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/03.spring-security-logout/static/css/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/03.spring-security-logout/templates/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/03.spring-security-logout/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/04.spring-security-error-handler/META-INF/04.spring-security-error-handler.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/04.spring-security-error-handler/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/04.spring-security-error-handler/com/chz/SpringSecurityErrorHandlerApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/04.spring-security-error-handler/com/chz/config/SecurityConfig$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/04.spring-security-error-handler/com/chz/config/SecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/04.spring-security-error-handler/com/chz/controller/LoginController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/04.spring-security-error-handler/com/chz/entity/Role.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/04.spring-security-error-handler/com/chz/entity/UserDO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/04.spring-security-error-handler/com/chz/entity/UserRole.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/04.spring-security-error-handler/com/chz/mapper/RoleMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/04.spring-security-error-handler/com/chz/mapper/UserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/04.spring-security-error-handler/com/chz/mapper/UserRoleMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/04.spring-security-error-handler/com/chz/service/IRoleService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/04.spring-security-error-handler/com/chz/service/IUserRoleService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/04.spring-security-error-handler/com/chz/service/IUserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/04.spring-security-error-handler/com/chz/service/impl/RoleServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/04.spring-security-error-handler/com/chz/service/impl/UserDetailsServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/04.spring-security-error-handler/com/chz/service/impl/UserRoleServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/04.spring-security-error-handler/com/chz/service/impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/04.spring-security-error-handler/com/chz/springrememberme/handler/FailureHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/04.spring-security-error-handler/com/chz/springrememberme/handler/FailureHandler2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/04.spring-security-error-handler/static/css/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/04.spring-security-error-handler/templates/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/04.spring-security-error-handler/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/05.spring-security-imagecode/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/05.spring-security-imagecode/com/chz/springsecurityimagecode/SpringSecurityImagecodeApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/05.spring-security-imagecode/com/chz/springsecurityimagecode/config/SecurityConfig$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/05.spring-security-imagecode/com/chz/springsecurityimagecode/config/SecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/05.spring-security-imagecode/com/chz/springsecurityimagecode/controller/LoginController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/05.spring-security-imagecode/com/chz/springsecurityimagecode/controller/ValidateController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/05.spring-security-imagecode/com/chz/springsecurityimagecode/entity/Role.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/05.spring-security-imagecode/com/chz/springsecurityimagecode/entity/UserDO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/05.spring-security-imagecode/com/chz/springsecurityimagecode/entity/UserRole.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/05.spring-security-imagecode/com/chz/springsecurityimagecode/handler/FailureHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/05.spring-security-imagecode/com/chz/springsecurityimagecode/mapper/RoleMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/05.spring-security-imagecode/com/chz/springsecurityimagecode/mapper/UserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/05.spring-security-imagecode/com/chz/springsecurityimagecode/mapper/UserRoleMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/05.spring-security-imagecode/com/chz/springsecurityimagecode/service/IRoleService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/05.spring-security-imagecode/com/chz/springsecurityimagecode/service/IUserRoleService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/05.spring-security-imagecode/com/chz/springsecurityimagecode/service/IUserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/05.spring-security-imagecode/com/chz/springsecurityimagecode/service/impl/RoleServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/05.spring-security-imagecode/com/chz/springsecurityimagecode/service/impl/UserDetailsServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/05.spring-security-imagecode/com/chz/springsecurityimagecode/service/impl/UserRoleServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/05.spring-security-imagecode/com/chz/springsecurityimagecode/service/impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/05.spring-security-imagecode/com/chz/springsecurityimagecode/validate/code/ImageCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/05.spring-security-imagecode/com/chz/springsecurityimagecode/validate/code/ValidateCodeException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/05.spring-security-imagecode/com/chz/springsecurityimagecode/validate/code/ValidateCodeFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/05.spring-security-imagecode/static/css/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/05.spring-security-imagecode/templates/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/05.spring-security-imagecode/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/06.spring-securiy-athorization/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/06.spring-securiy-athorization/com/chz/springsecuriyathorization/SpringSecuriyAthorizationApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/06.spring-securiy-athorization/com/chz/springsecuriyathorization/code/ImageCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/06.spring-securiy-athorization/com/chz/springsecuriyathorization/code/ValidateCodeException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/06.spring-securiy-athorization/com/chz/springsecuriyathorization/code/ValidateCodeFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/06.spring-securiy-athorization/com/chz/springsecuriyathorization/config/SecurityConfig$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/06.spring-securiy-athorization/com/chz/springsecuriyathorization/config/SecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/06.spring-securiy-athorization/com/chz/springsecuriyathorization/config/component/CustomizePermissionEvaluator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/06.spring-securiy-athorization/com/chz/springsecuriyathorization/controller/LoginController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/06.spring-securiy-athorization/com/chz/springsecuriyathorization/controller/ValidateController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/06.spring-securiy-athorization/com/chz/springsecuriyathorization/entity/Role.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/06.spring-securiy-athorization/com/chz/springsecuriyathorization/entity/UserDO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/06.spring-securiy-athorization/com/chz/springsecuriyathorization/entity/UserRole.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/06.spring-securiy-athorization/com/chz/springsecuriyathorization/handler/AuthorizationAccessDeniedHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/06.spring-securiy-athorization/com/chz/springsecuriyathorization/handler/FailureHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/06.spring-securiy-athorization/com/chz/springsecuriyathorization/mapper/RoleMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/06.spring-securiy-athorization/com/chz/springsecuriyathorization/mapper/UserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/06.spring-securiy-athorization/com/chz/springsecuriyathorization/mapper/UserRoleMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/06.spring-securiy-athorization/com/chz/springsecuriyathorization/service/IRoleService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/06.spring-securiy-athorization/com/chz/springsecuriyathorization/service/IUserRoleService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/06.spring-securiy-athorization/com/chz/springsecuriyathorization/service/IUserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/06.spring-securiy-athorization/com/chz/springsecuriyathorization/service/impl/RoleServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/06.spring-securiy-athorization/com/chz/springsecuriyathorization/service/impl/UserDetailsServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/06.spring-securiy-athorization/com/chz/springsecuriyathorization/service/impl/UserRoleServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/06.spring-securiy-athorization/com/chz/springsecuriyathorization/service/impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/06.spring-securiy-athorization/static/css/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/06.spring-securiy-athorization/templates/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/06.spring-securiy-athorization/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/07.spring-security-session/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/07.spring-security-session/com/chz/springsecuritysession/SpringSecuritySessionApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/07.spring-security-session/com/chz/springsecuritysession/code/ImageCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/07.spring-security-session/com/chz/springsecuritysession/code/ValidateCodeException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/07.spring-security-session/com/chz/springsecuritysession/code/ValidateCodeFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/07.spring-security-session/com/chz/springsecuritysession/config/SecurityConfig$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/07.spring-security-session/com/chz/springsecuritysession/config/SecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/07.spring-security-session/com/chz/springsecuritysession/config/component/CustomizePermissionEvaluator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/07.spring-security-session/com/chz/springsecuritysession/config/component/MySessionExpiredStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/07.spring-security-session/com/chz/springsecuritysession/controller/LoginController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/07.spring-security-session/com/chz/springsecuritysession/controller/ValidateController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/07.spring-security-session/com/chz/springsecuritysession/entity/Role.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/07.spring-security-session/com/chz/springsecuritysession/entity/UserDO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/07.spring-security-session/com/chz/springsecuritysession/entity/UserRole.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/07.spring-security-session/com/chz/springsecuritysession/handler/AuthorizationAccessDeniedHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/07.spring-security-session/com/chz/springsecuritysession/handler/MyAuthenticationFailureHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/07.spring-security-session/com/chz/springsecuritysession/handler/MyAuthenticationSuccessHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/07.spring-security-session/com/chz/springsecuritysession/mapper/RoleMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/07.spring-security-session/com/chz/springsecuritysession/mapper/UserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/07.spring-security-session/com/chz/springsecuritysession/mapper/UserRoleMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/07.spring-security-session/com/chz/springsecuritysession/service/IRoleService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/07.spring-security-session/com/chz/springsecuritysession/service/IUserRoleService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/07.spring-security-session/com/chz/springsecuritysession/service/IUserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/07.spring-security-session/com/chz/springsecuritysession/service/impl/RoleServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/07.spring-security-session/com/chz/springsecuritysession/service/impl/UserDetailsServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/07.spring-security-session/com/chz/springsecuritysession/service/impl/UserRoleServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/07.spring-security-session/com/chz/springsecuritysession/service/impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/07.spring-security-session/static/css/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/07.spring-security-session/templates/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/07.spring-security-session/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/08.spring-security-sms/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/08.spring-security-sms/com/chz/springsecuritysms/SpringSecuritySmsApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/08.spring-security-sms/com/chz/springsecuritysms/code/CodeValidateException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/08.spring-security-sms/com/chz/springsecuritysms/code/ImageCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/08.spring-security-sms/com/chz/springsecuritysms/code/SMSCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/08.spring-security-sms/com/chz/springsecuritysms/config/SMSCodeAuthenticationConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/08.spring-security-sms/com/chz/springsecuritysms/config/WebSecurityConfig$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/08.spring-security-sms/com/chz/springsecuritysms/config/WebSecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/08.spring-security-sms/com/chz/springsecuritysms/config/component/CustomizePermissionEvaluator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/08.spring-security-sms/com/chz/springsecuritysms/config/component/SMSCodeAuthenticationProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/08.spring-security-sms/com/chz/springsecuritysms/config/component/SMSCodeAuthenticationToken.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/08.spring-security-sms/com/chz/springsecuritysms/controller/LoginController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/08.spring-security-sms/com/chz/springsecuritysms/controller/ValidateController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/08.spring-security-sms/com/chz/springsecuritysms/entity/Role.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/08.spring-security-sms/com/chz/springsecuritysms/entity/UserDO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/08.spring-security-sms/com/chz/springsecuritysms/entity/UserRole.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/08.spring-security-sms/com/chz/springsecuritysms/filter/ImageCodeValidateFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/08.spring-security-sms/com/chz/springsecuritysms/filter/SMSCodeAuthenticationFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/08.spring-security-sms/com/chz/springsecuritysms/filter/SMSCodeValidateFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/08.spring-security-sms/com/chz/springsecuritysms/handler/AuthorizationAccessDeniedHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/08.spring-security-sms/com/chz/springsecuritysms/handler/MyAuthenticationFailureHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/08.spring-security-sms/com/chz/springsecuritysms/handler/MyAuthenticationSuccessHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/08.spring-security-sms/com/chz/springsecuritysms/mapper/RoleMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/08.spring-security-sms/com/chz/springsecuritysms/mapper/UserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/08.spring-security-sms/com/chz/springsecuritysms/mapper/UserRoleMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/08.spring-security-sms/com/chz/springsecuritysms/service/IRoleService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/08.spring-security-sms/com/chz/springsecuritysms/service/IUserRoleService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/08.spring-security-sms/com/chz/springsecuritysms/service/IUserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/08.spring-security-sms/com/chz/springsecuritysms/service/impl/RoleServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/08.spring-security-sms/com/chz/springsecuritysms/service/impl/UserDetailsServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/08.spring-security-sms/com/chz/springsecuritysms/service/impl/UserRoleServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/08.spring-security-sms/com/chz/springsecuritysms/service/impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/08.spring-security-sms/static/css/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/08.spring-security-sms/templates/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/08.spring-security-sms/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/01.spring-security01/com/chz/springsecurity01/MockTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/01.spring-security01/com/chz/springsecurity01/SpringSecurity01ApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/02.spring-securiry-rememberme/META-INF/02.spring-securiry-rememberme.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/02.spring-securiry-rememberme/com/chz/springsecurirylogout/SpringSecuriryRemembermeApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/03.spring-security-logout/META-INF/03.spring-security-logout.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/03.spring-security-logout/com/chz/SpringSecurityErrorHandlerApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/03.spring-security-logout/com/chz/springsecurirylogout/SpringSecuriryRemembermeApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/04.spring-security-error-handler/META-INF/04.spring-security-error-handler.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/04.spring-security-error-handler/com/chz/SpringSecurityErrorHandlerApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/04.spring-security-error-handler/com/chz/springsecurirylogout/SpringSecuriryRemembermeApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/05.spring-security-imagecode/com/chz/springsecurityimagecode/SpringSecurityImagecodeApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/06.spring-securiy-athorization/com/chz/springsecuriyathorization/SpringSecuriyAthorizationApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/07.spring-security-session/com/chz/springsecuritysession/SpringSecuritySessionApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/08.spring-security-sms/com/chz/springsecuritysms/SpringSecuritySmsApplicationTests.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,27 +294,27 @@
     <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/spring-securiy-athorization/src/main/java/com/chz/springsecuriyathorization/config/component/CustomizePermissionEvaluator.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/spring-security-session/src/main/java/com/chz/springsecuritysession/service/impl/UserDetailsServiceImpl.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/spring-security-sms/src/main/java/com/chz/springsecuritysms/filter/SMSCodeValidateFilter.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/spring-securiry-rememberme/src/main/java/com/chz/springsecurirylogout/service/impl/UserDetailsServiceImpl.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/spring-security-logout/src/main/java/com/chz/springsecurirylogout/config/SecurityConfig.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/spring-security-sms/src/main/java/com/chz/springsecuritysms/service/impl/UserDetailsServiceImpl.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/spring-security-session/src/main/java/com/chz/springsecuritysession/config/SecurityConfig.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/spring-security-imagecode/src/main/java/com/chz/springsecurityimagecode/config/SecurityConfig.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/spring-securiy-athorization/src/main/java/com/chz/springsecuriyathorization/service/impl/UserDetailsServiceImpl.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/spring-securiry-rememberme/src/main/java/com/chz/springsecurirylogout/config/SecurityConfig.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/spring-security-error-handler/src/main/java/com/chz/springsecurirylogout/service/impl/UserDetailsServiceImpl.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/spring-security-imagecode/src/main/java/com/chz/springsecurityimagecode/config/SecurityConfig.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/spring-security-session/src/main/java/com/chz/springsecuritysession/controller/LoginController.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/spring-security-sms/src/main/java/com/chz/springsecuritysms/config/SMSCodeAuthenticationConfig.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/spring-security-imagecode/src/main/java/com/chz/springsecurityimagecode/service/impl/UserDetailsServiceImpl.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/spring-securiry-rememberme/src/main/java/com/chz/springsecurirylogout/config/SecurityConfig.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/spring-security-sms/src/main/java/com/chz/springsecuritysms/filter/SMSCodeValidateFilter.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/spring-security-sms/src/main/java/com/chz/springsecuritysms/service/impl/UserDetailsServiceImpl.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/spring-security-session/src/main/java/com/chz/springsecuritysession/service/impl/UserDetailsServiceImpl.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/spring-security01/src/main/java/com/chz/springsecurity01/service/impl/UserDetailsServiceImpl.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/spring-security-logout/src/main/java/com/chz/springsecurirylogout/config/SecurityConfig.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/spring-securiy-athorization/src/main/java/com/chz/springsecuriyathorization/config/SecurityConfig.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/spring-security-imagecode/src/main/java/com/chz/springsecurityimagecode/controller/ValidateController.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/spring-security01/src/test/java/com/chz/springsecurity01/MockTest.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/spring-security-error-handler/src/main/java/com/chz/springsecurirylogout/config/SecurityConfig.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/spring-security-logout/src/main/java/com/chz/springsecurirylogout/service/impl/UserDetailsServiceImpl.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/spring-security-sms/src/main/java/com/chz/springsecuritysms/config/SMSCodeAuthenticationConfig.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/spring-securiy-athorization/src/main/java/com/chz/springsecuriyathorization/config/component/CustomizePermissionEvaluator.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/spring-security-sms/src/main/java/com/chz/springsecuritysms/config/WebSecurityConfig.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/spring-securiry-rememberme/src/main/java/com/chz/springsecurirylogout/service/impl/UserDetailsServiceImpl.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/spring-security-imagecode/src/main/java/com/chz/springsecurityimagecode/service/impl/UserDetailsServiceImpl.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/spring-security-session/src/main/java/com/chz/springsecuritysession/config/SecurityConfig.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/spring-security-error-handler/src/main/java/com/chz/springsecurirylogout/config/SecurityConfig.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/spring-security01/src/test/java/com/chz/springsecurity01/MockTest.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/spring-security-imagecode/src/main/java/com/chz/springsecurityimagecode/controller/ValidateController.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/spring-security-logout/src/main/java/com/chz/springsecurirylogout/service/impl/UserDetailsServiceImpl.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -133,7 +334,6 @@
         <option name="downloadAnnotationsAutomatically" value="true" />
         <option name="downloadDocsAutomatically" value="true" />
         <option name="downloadSourcesAutomatically" value="true" />
-        <option name="importAutomatically" value="true" />
         <option name="useMavenOutput" value="false" />
         <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
@@ -148,7 +348,6 @@
   </component>
   <component name="ProjectViewState">
     <option name="flattenModules" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
@@ -163,7 +362,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/spring-security01/src/main/java/com/chz" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Demo/Test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -363,11 +562,12 @@
       <workItem from="1589762602747" duration="4076000" />
       <workItem from="1589767032178" duration="8449000" />
       <workItem from="1589775518994" duration="17223000" />
+      <workItem from="1592388404488" duration="1491000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="71" key="#Project_Structure" timestamp="1589439078472">

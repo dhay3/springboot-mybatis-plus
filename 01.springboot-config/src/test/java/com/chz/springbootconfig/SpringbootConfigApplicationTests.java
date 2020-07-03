@@ -12,7 +12,7 @@ import org.springframework.context.ApplicationContext;
 class SpringbootConfigApplicationTests {
     @Autowired
     ApplicationContext context;
-    @Autowired
+//    @Autowired
     PeopleProperties peopleProperties;
     //    @Autowired
     PeopleValue peopleValue;
@@ -36,7 +36,7 @@ class SpringbootConfigApplicationTests {
     @Test
     public void setPropertySource() {
         System.out.println(context.getBean(TestProperty.class));
-        System.out.println(testProperty);
+//        System.out.println(testProperty);
     }
 
 }

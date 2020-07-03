@@ -3,7 +3,6 @@ package com.chz.springbootconfig.pojo;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.validation.annotation.Validated;
 
-import javax.validation.constraints.Max;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 import java.util.Date;
@@ -23,7 +22,7 @@ public class PeopleProperties {
     @NotBlank
     private String name;
     @NotNull
-    @Max(20)
+//    @Max(20)
     private Integer age;
     private Date date;
     private List<Object> list;

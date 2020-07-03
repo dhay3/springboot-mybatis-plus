@@ -1,6 +1,8 @@
 package com.chz.entity;
 
+import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableField;
+import com.baomidou.mybatisplus.annotation.TableId;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -27,7 +29,8 @@ public class Employee {
      * 如果表中开启主键自增,成员变量要开启主键自增策略
      * 全局配置主键策略可以不用添加
      */
-//    @TableId(type = IdType.AUTO)
+    @TableId(type = IdType.AUTO)
+//    @TableId(type = IdType.ASSIGN_UUID)
     private Integer id;
     /**
      * 默认开启骆驼峰命名,下划线转成骆驼峰  mybatis不默认开启
