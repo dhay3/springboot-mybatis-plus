@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.Date;
+import java.util.HashMap;
 
 @RestController
 public class TestJsonController {
@@ -40,7 +41,12 @@ public class TestJsonController {
 //        User user = new User();
 //        user.setName("仲达").setAge(12).setDate(new Date());
         //将对象转为json串
-        return objectMapper.writeValueAsString(user);
+//        return objectMapper.writeValueAsString(user);
+
+        //同样也可以将map转为Json串
+        HashMap<String, Object> map = new HashMap<>();
+        map.put("code",123213);
+        return objectMapper.writeValueAsString(map);
     }
 
     @GetMapping("/jsonNode1")

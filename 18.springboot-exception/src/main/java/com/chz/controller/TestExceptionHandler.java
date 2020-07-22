@@ -1,6 +1,7 @@
 package com.chz.controller;
 
 import com.chz.exception.UserNotExistException;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
@@ -20,6 +21,7 @@ import java.util.Map;
  * 如果加了@ResponseBody就返回json不经过BasicErrorController
  * 如果没加就会经过BasicController然后跳转到对应的异常页
  */
+@Slf4j
 @ControllerAdvice(basePackageClasses = {TestController.class})//可以通过basicPackageClasses处理指定的controller
 public class TestExceptionHandler extends ResponseEntityExceptionHandler {
     /*
@@ -69,10 +71,22 @@ public class TestExceptionHandler extends ResponseEntityExceptionHandler {
         private ModelAndView handleUserNotExistException2(UserNotExistException e, HttpServletRequest request) {
             HashMap<String, Object> map = new HashMap<>();
             map.put("customer", "用户名不存在");
+            //HttpStatus就是指定错误的状态码
             //这里不能使用HttpStatusCode的枚举类, 因为源码指定了这个key对应的返回类型是Integer而不能是枚举类
             request.setAttribute("javax.servlet.error.status_code", HttpStatus.BAD_REQUEST.value());
             //将map放入request域中, 这里会被/error接收,所以webRequest.getAttribute("customer",0)能被获取到
             return new ModelAndView("forward:/error", map);
             //如果controller之间跳转带有参数最好使用这种方式
         }
+
+    /**
+     * 没有可以处理异常的ExceptionHandler经过该处理器
+     * @param e
+     * @return
+     */
+    @ExceptionHandler
+    public void errorHandler(Exception e) {
+        e.printStackTrace();
+        log.error("没有匹配的handler");
+    }
 }

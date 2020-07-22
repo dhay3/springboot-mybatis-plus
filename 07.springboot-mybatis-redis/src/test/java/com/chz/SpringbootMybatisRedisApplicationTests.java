@@ -43,7 +43,7 @@ class SpringbootMybatisRedisApplicationTests {
     /**
      * opsForValue() 对应redis的set,get
      * opsForHash() 对应redis的hset,hget,hmset,hmget
-     * opsForValue() 对应redis的lpush,rpush,lpop,rpop,lrange
+     * opsForList() 对应redis的lpush,rpush,lpop,rpop,lrange
      * opsForSet() 对应redis 的set
      * opsForZset() 对应redis 的zset
      */

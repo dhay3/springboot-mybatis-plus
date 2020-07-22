@@ -14,7 +14,9 @@ import java.io.*;
 import java.lang.reflect.Field;
 import java.lang.reflect.Type;
 import java.math.BigDecimal;
+import java.nio.file.Files;
 import java.util.ArrayList;
+import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 @SpringBootTest
@@ -151,6 +153,10 @@ class SpringbootUtilsApplicationTests {
         System.out.println(user1);
     }
 
+    /**
+     * stopWatch
+     * @throws InterruptedException
+     */
     @Test
     public void testStopWatch() throws InterruptedException {
         //指定stopWatch的名字
@@ -158,11 +164,11 @@ class SpringbootUtilsApplicationTests {
         //指定任务
         sw.start("task1");
         TimeUnit.SECONDS.sleep(1);
-        sw.stop();
+        sw.stop();//只有前一个任务停止了,后面的任务才能开始
         sw.start("task2");
         TimeUnit.SECONDS.sleep(2);
         sw.stop();
-        //漂亮显示
+        //漂亮显示,只有在漂亮显示种才能
         System.out.println(sw.prettyPrint() + "+++++++++");
         //输出所有任务的总时长,以纳秒显示
         String s = sw.shortSummary();
@@ -183,5 +189,17 @@ class SpringbootUtilsApplicationTests {
             System.out.println(type);
             System.out.println("-----------------");
         }
+    }
+
+    /**
+     * CollectionUtils
+     */
+    @Test
+    public void testCollectionUtils(){
+        //jdk自带的asList不能对基本类型转为集合, 但是spring的可以
+        List list = CollectionUtils.arrayToList(new int[]{1, 3, 4, 5});
+        System.out.println(list);
+        //合并数组到集合种
+//        CollectionUtils.mergeArrayIntoCollection();
     }
 }

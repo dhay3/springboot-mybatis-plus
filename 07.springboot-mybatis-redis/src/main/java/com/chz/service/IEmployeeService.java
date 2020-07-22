@@ -22,8 +22,8 @@ public interface IEmployeeService {
     @Cacheable(key = "#p0")//key存的是参数的值,p0表示第一个参数
     public List<Employee> list(String name, Integer id);
     //spEL表达式支持级联
-    //避免用户重复提交
-    @Cacheable(key = "#p0.id")
+    //添加到数据库中,同时修改缓存中的数据
+    @CachePut(key = "#p0.id")
     public boolean add(Employee employee);
 
     //因为缓存存的是返回值,返回Employee是为了修改缓存中值,避免脏读
