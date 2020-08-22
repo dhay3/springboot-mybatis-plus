@@ -56,6 +56,10 @@ spring:
   jackson:
     date-format: yyyy-MM-dd HH:mm:ss
     time-zone: GMT+8
+  mvc:
+    hiddenmethod:
+      filter:
+        enabled: true
 #    timeout: 0 #超过指定时间抛出异常
 #        allow: 127.0.0.1 白名单
 #        deny:  192.168.1.130黑名单

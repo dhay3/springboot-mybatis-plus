@@ -1,7 +1,7 @@
-package com.chz.securityathentaication.conf.component;
+package com.chz.athentication.securityathentaication.conf.component;
 
 
-import com.chz.securityathentaication.entity.UserDO;
+import com.chz.athentication.securityathentaication.entity.UserDO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
@@ -27,7 +27,7 @@ public class UserDetailsServiceImpl implements UserDetailsService {
 
     /**
      * 首先经过该方法
-     * 根据用户名获取信息
+     * 根据用户名获取认证信息
      */
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {

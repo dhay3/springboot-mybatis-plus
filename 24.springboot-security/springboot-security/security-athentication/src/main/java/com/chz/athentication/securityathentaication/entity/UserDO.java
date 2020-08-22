@@ -1,4 +1,4 @@
-package com.chz.securityathentaication.entity;
+package com.chz.athentication.securityathentaication.entity;
 
 import lombok.Data;
 

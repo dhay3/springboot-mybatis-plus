@@ -7,11 +7,13 @@ import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.Date;
 import java.util.HashMap;
+import java.util.Map;
 
 @RestController
 public class TestJsonController {
@@ -43,7 +45,7 @@ public class TestJsonController {
         //将对象转为json串
 //        return objectMapper.writeValueAsString(user);
 
-        //同样也可以将map转为Json串
+        //同样也可以将map转为Json串,也可以将json转为map
         HashMap<String, Object> map = new HashMap<>();
         map.put("code",123213);
         return objectMapper.writeValueAsString(map);
@@ -86,4 +88,6 @@ public class TestJsonController {
     public String getStr(){
         return "hello world";
     }
+
+
 }

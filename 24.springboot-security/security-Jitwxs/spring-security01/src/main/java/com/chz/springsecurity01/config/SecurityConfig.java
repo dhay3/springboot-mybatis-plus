@@ -30,6 +30,8 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .authenticated()
                 .and()
                 .formLogin()
+                //如果只配置LoginPage那么loginProcessingUrl就是LoginPage
+                //loginPage和loginProcessingUrl必须一样否则就会出错
                 .loginPage("/login")
                 .defaultSuccessUrl("/").permitAll()
                 //如果不配置默认/login,post作为检验

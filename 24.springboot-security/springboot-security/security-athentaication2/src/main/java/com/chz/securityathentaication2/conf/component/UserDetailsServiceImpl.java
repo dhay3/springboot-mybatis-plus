@@ -1,7 +1,7 @@
-package com.chz.securityathentaication.conf.component;
+package com.chz.securityathentaication2.conf.component;
 
 
-import com.chz.securityathentaication.entity.UserDO;
+import com.chz.securityathentaication2.entity.UserDO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
@@ -10,7 +10,7 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.password.PasswordEncoder;
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 import org.springframework.util.ObjectUtils;
 import org.springframework.util.StringUtils;
 
@@ -20,14 +20,14 @@ import java.util.List;
 /**
  * 实现用户认证需要实现UserDetailsService接口
  */
-@Component
+@Service
 public class UserDetailsServiceImpl implements UserDetailsService {
     @Autowired
     private PasswordEncoder passwordEncoder;
 
     /**
      * 首先经过该方法
-     * 根据用户名获取认证信息
+     * 根据用户名获取信息
      */
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
@@ -39,8 +39,8 @@ public class UserDetailsServiceImpl implements UserDetailsService {
         userDO.setUserName("zs");
         //实际密码是从数据库中获取的加密密码
         userDO.setPassword(passwordEncoder.encode("123"));
-        System.out.println(userDO.getPassword());
-        if (ObjectUtils.isEmpty(userDO)){
+//        System.out.println("password :=" + userDO.getPassword());
+        if (ObjectUtils.isEmpty(userDO)) {
             throw new UsernameNotFoundException("用户不存在");
         }
         //SimpleGrantedAuthority用于存储用户(Authentication)的权限
