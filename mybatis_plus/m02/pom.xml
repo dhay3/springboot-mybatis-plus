@@ -15,7 +15,7 @@
     <properties>
         <spring.version>4.3.9.RELEASE</spring.version>
         <mybatis.version>3.4.5</mybatis.version>
-        <mysql.version>8.0.17</mysql.version>
+        <mysql.version>8.0.28</mysql.version>
     </properties>
 
     <dependencies>
